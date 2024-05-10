@@ -1,0 +1,99 @@
+\documentclass[stu,12pt,floatsintext]{apa7}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes} % One of the things you learn about LaTeX is at some level, it's like magic. The references weren't printing as they should without this line, and the guy who wrote the package included it, so here it is. Because LaTeX reasons.
+\usepackage[T1]{fontenc} 
+\usepackage{mathptmx} % This is the Times New Roman font, which was the norm back in my day. If you'd like to use a different font, the options are laid out here: https://www.overleaf.com/learn/latex/Font_typefaces
+
+
+
+\title{Clasificación de Microservicios para la persistencia y procesamiento de datos recolectados en tiempo real de sistemas embebidos del sector minero}
+\shorttitle{Clasificación de Microservicios para el sector minero}
+\authorsnames{William Fernando Salamanca Barrera, Oscar Ricardo Guerrero Serna}
+
+\authorsaffiliations{Universidad Pedagógica y Tecnológica de Colombia}
+\course{Seminario de Trabajo de Grado 8108918} % LaTeX gets annoyed (i.e., throws a grumble-error) if this is blank, so I put something here. However, if your instructor will mark you off for this being on the title page, you can leave this entry blank (delete the PSY 4321, but leave the command), and just make peace with the error that will happen. It won't break the document.
+\professor{PhD. Marco Javier Suarez Baron}  % Same situation as for the course info. Some instructors want this, some absolutely don't and will take off points. So do what you gotta.
+
+\duedate{\today}
+
+\abstract{Put your abstract here. In APA style, the abstract should be between 150 and 250 words depending on the journal.}
+\begin{document}
+	\maketitle
+	
+	\renewcommand\contentsname{TABLA DE CONTENIDO}
+	\tableofcontents
+	
+	\section{TEMA/TEMÁTICA}
+	
+	\section{TITULO PROVISIONAL}
+	Clasificación de Microservicios para la persistencia y procesamiento de datos recolectados en tiempo real de sistemas embebidos del sector minero
+	
+	\section{PLANTEAMIENTO DEL PROBLEMA}
+	\subsection{DESCRIPCIÓN DEL PROBLEMA}
+	\subsubsection{Diagnostico}
+	Las soluciones que se encuentran a  nivel comercial, a pesar de ser desarrolladas por empresas implicadas directamente en la industria minera, tienen un costo económico muy alto para lo que se pudiese llegar a costear por parte de los dueños de minas en Boyacá.
+	
+	Otro factor a considerar es la baja capacidad de compatibilidad con los sistemas embebidos ya implementados, en consecuencia se termina teniendo una alta complejidad de integración con las soluciones que se encuentran.
+	
+	A comparación de otras industrias, no se encuentran desarrollos de software de código abierto que pueda llegar a ser considerados.
+	
+	Son pocos los software que solucionan más de un requerimiento.
+	\subsubsection{Pronostico}
+	Ante la muy remota pero no nula probabilidad de optar por soluciones de software costosas, las minas pueden empezar sufrir aumento en sus costos operativos, lo que trae una disminución de los margenes de ganancias, implicando reducción en la capacidad de re-inversión, afectando al crecimiento económico de la región con efectos como el aumento de la tasa de desempleo de los trabajadores involucrados directa e indirectamente en la cadena de producción. Además de presentarse una baja adopción en el uso de tecnología, lo cual también puede implicar que la empresa se quede resegada o hasta obsoleta frente a aquellas que si adoptan soluciones tecnológicas.
+	
+	Por otro lado, existe la posibilidad de que se opte por soluciones poco seguras y/o eficientes. Las cuales tienen asociadas una baja capacidad para escalar, poca seguridad y baja disponibilidad.
+	
+	Directamente puede que lleguen por no optar por una, lo que afectaría directamente la toma de decisiones en cuestiones de seguridad para los trabajadores, junto con una  insuficiencia de recursos ante una muy probable baja eficiencia y productividad.
+	\subsubsection{Control al pronostico}
+	Ante esto se propone el desarrollo de un sistema de software basado en la arquitectura de microservicios, ya que de las diferentes opciones que se pueden encontrar actualmente esta cumple con las siguientes características:
+	
+	\begin{itemize}
+		\item Fiabilidad en la recolección de datos y emisión de alertas
+		\item Disponibilidad 24/7
+		\item Escabilidad principalmente asociada a la cantidad de datos que se recolectan por sistemas embebidos que amplíen los existentes.
+		\item Mantenibilidad → para incorporar funcionalidades, solucionar errores
+		\item Seguridad principalmente en aspectos como la integridad, confidencialidad y disponibilidad de los datos.
+		\item Rendimiento a nivel de recolección de datos, emisión de alertas
+		\item Resiliencia 
+		\item Monitoreo y diagnóstico
+	\end{itemize}
+	\subsection{FORMULACIÓN DEL PROBLEMA}
+	
+	
+	\section{OBJETIVOS}
+	\subsection{OBJETIVO GENERAL}
+	\subsection{OBJETIVOS ESPECÍFICOS}
+	
+	\section{JUSTIFICACIÓN}
+	
+	\section{DELIMITACIÓN Y ALCANCE}
+	
+	\section{MARCO REFERENCIAL}
+	\subsection{MARCO TEÓRICO}
+	\subsection{MARCO CONCEPTUAL}
+	Esta es una subsection de la Sección Uno\cite{mittelbach2004latex}
+	\subsection{MARCO LEGAL}
+	
+	\section{FUENTES DE INFORMACIÓN}
+	
+	\section{TIPO DE INVESTIGACIÓN}
+	
+	\section{CRONOGRAMA}
+	
+	\section{PRESUPUESTO}
+	
+	\section{BIBLIOGRAFÍA}
+	\renewcommand\refname{Referencias}
+	\bibliographystyle{apalike}
+	\bibliography{./references.bib}
+	
+	
+
+	
+	
+	\section{CONCLUSIONES}
+	
+
+\end{document}
