@@ -1,24 +1,30 @@
-\babel@toc {american}{}\relax 
-\contentsline {section}{TEMA/TEMÁTICA}{4}{section*.4}%
-\contentsline {section}{TITULO PROVISIONAL}{4}{section*.5}%
-\contentsline {section}{PLANTEAMIENTO DEL PROBLEMA}{4}{section*.6}%
-\contentsline {subsection}{DESCRIPCIÓN DEL PROBLEMA}{4}{section*.7}%
-\contentsline {subsubsection}{Diagnostico}{4}{section*.8}%
-\contentsline {subsubsection}{Pronostico}{4}{section*.9}%
-\contentsline {subsubsection}{Control al pronostico}{5}{section*.10}%
-\contentsline {subsection}{FORMULACIÓN DEL PROBLEMA}{6}{section*.11}%
-\contentsline {section}{OBJETIVOS}{6}{section*.12}%
-\contentsline {subsection}{OBJETIVO GENERAL}{6}{section*.13}%
-\contentsline {subsection}{OBJETIVOS ESPECÍFICOS}{6}{section*.14}%
-\contentsline {section}{JUSTIFICACIÓN}{6}{section*.15}%
-\contentsline {section}{DELIMITACIÓN Y ALCANCE}{6}{section*.16}%
-\contentsline {section}{MARCO REFERENCIAL}{6}{section*.17}%
-\contentsline {subsection}{MARCO TEÓRICO}{6}{section*.18}%
-\contentsline {subsection}{MARCO CONCEPTUAL}{6}{section*.19}%
-\contentsline {subsection}{MARCO LEGAL}{6}{section*.20}%
-\contentsline {section}{FUENTES DE INFORMACIÓN}{6}{section*.21}%
-\contentsline {section}{TIPO DE INVESTIGACIÓN}{6}{section*.22}%
-\contentsline {section}{CRONOGRAMA}{6}{section*.23}%
-\contentsline {section}{PRESUPUESTO}{6}{section*.24}%
-\contentsline {section}{BIBLIOGRAFÍA}{6}{section*.25}%
-\contentsline {section}{CONCLUSIONES}{6}{section*.27}%
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{TEMA/TEMÁTICA}{5}{section*.5}%
+\contentsline {section}{TITULO PROVISIONAL}{5}{section*.7}%
+\contentsline {section}{PLANTEAMIENTO DEL PROBLEMA}{5}{section*.8}%
+\contentsline {subsection}{DESCRIPCIÓN DEL PROBLEMA}{5}{section*.9}%
+\contentsline {subsubsection}{Diagnostico}{5}{section*.10}%
+\contentsline {subsubsection}{Pronostico}{7}{section*.11}%
+\contentsline {subsubsection}{Control al pronostico}{7}{section*.12}%
+\contentsline {subsection}{FORMULACIÓN DEL PROBLEMA}{8}{section*.13}%
+\contentsline {section}{OBJETIVOS}{8}{section*.14}%
+\contentsline {subsection}{OBJETIVO GENERAL}{8}{section*.15}%
+\contentsline {subsection}{OBJETIVOS ESPECÍFICOS}{8}{section*.16}%
+\contentsline {section}{JUSTIFICACIÓN}{9}{section*.17}%
+\contentsline {section}{DELIMITACIÓN Y ALCANCE}{10}{section*.18}%
+\contentsline {section}{MARCO REFERENCIAL}{11}{section*.19}%
+\contentsline {subsection}{MARCO TEÓRICO}{11}{section*.20}%
+\contentsline {subsection}{MARCO CONCEPTUAL}{11}{section*.21}%
+\contentsline {subsection}{MARCO LEGAL}{11}{section*.22}%
+\contentsline {subsection}{MARCO HISTÓRICO}{11}{section*.23}%
+\contentsline {subsection}{MARCO METODOLÓGICO}{11}{section*.24}%
+\contentsline {section}{FUENTES DE INFORMACIÓN}{11}{section*.25}%
+\contentsline {section}{TIPO DE INVESTIGACIÓN}{11}{section*.26}%
+\contentsline {section}{CRONOGRAMA}{11}{section*.27}%
+\contentsline {section}{RECURSOS}{11}{section*.28}%
+\contentsline {subsection}{RECURSOS HUMANOS}{11}{section*.29}%
+\contentsline {subsection}{RECURSOS FÍSICOS}{11}{section*.30}%
+\contentsline {subsection}{RECURSOS TECNOLÓGICOS}{11}{section*.31}%
+\contentsline {section}{PRESUPUESTO}{11}{section*.32}%
+\contentsline {section}{BIBLIOGRAFÍA}{11}{section*.33}%
+\contentsline {section}{CONCLUSIONES}{12}{section*.35}%

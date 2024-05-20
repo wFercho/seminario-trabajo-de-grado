@@ -3,44 +3,70 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: document.aux
 The style file: apalike.bst
 Database file #1: ./references.bib
-You've used 1 entry,
+I was expecting a `,' or a `}'---line 5 of file ./references.bib
+ :  
+ :  title = {A Supervisory Control and Data Acquisition Monitoring System
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "mittelbach2004latex"
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1023 of file apalike.bst
+Warning--empty title in SCADA_UMaT
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
+while executing---line 1098 of file apalike.bst
+You've used 5 entries,
             1935 wiz_defined-function locations,
-            476 strings with 3832 characters,
-and the built_in function-call counts, 424 in all, are:
-= -- 34
-> -- 28
-< -- 0
-+ -- 12
-- -- 10
-* -- 35
-:= -- 82
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 9
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 14
-empty$ -- 24
-format.name$ -- 11
-if$ -- 76
+            501 strings with 4582 characters,
+and the built_in function-call counts, 1803 in all, are:
+= -- 175
+> -- 70
+< -- 4
++ -- 24
+- -- 22
+* -- 157
+:= -- 324
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 35
+chr.to.int$ -- 5
+cite$ -- 6
+duplicate$ -- 68
+empty$ -- 124
+format.name$ -- 35
+if$ -- 342
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 13
+missing$ -- 5
+newline$ -- 27
+num.names$ -- 15
+pop$ -- 27
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 36
 quote$ -- 0
-skip$ -- 10
+skip$ -- 54
 stack$ -- 0
-substring$ -- 14
-swap$ -- 1
+substring$ -- 112
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 2
+type$ -- 30
+warning$ -- 1
+while$ -- 15
 width$ -- 0
-write$ -- 14
+write$ -- 64
+(There were 10 error messages)

@@ -1,8 +1,32 @@
 \begin{thebibliography}{}
 
-\bibitem[Mittelbach et~al., 2004]{mittelbach2004latex}
-Mittelbach, F., Goossens, M., Braams, J., Carlisle, D., and Rowley, C. (2004).
-\newblock {\em The LaTeX Companion}.
-\newblock Addison-Wesley.
+\bibitem[Aghenta and Iqbal, 2019]{electronics8080822}
+Aghenta, L.~O. and Iqbal, M.~T. (2019).
+\newblock Low-cost, open source iot-based scada system design using thinger.io
+  and esp32 thing.
+\newblock {\em Electronics}, 8(8):3 -- 3.
+
+\bibitem[Asiedu-Asante and Normanyo, 2020]{SCADA_UMaT}
+Asiedu-Asante, A.~B. and Normanyo, E. (2020).
+\newblock {\em GHANA JOURNAL OF TECHNOLOGY}.
+
+\bibitem[Aziz et~al., 2020]{iot1020029}
+Aziz, A., Schelén, O., and Bodin, U. (2020).
+\newblock A study on industrial iot for the mining industry: Synthesized
+  architecture and open research directions.
+\newblock {\em IoT}, 1(2):529--550.
+
+\bibitem[Gackowiec and Podobińska-Staniec, 2021]{iot-platforms}
+Gackowiec, P. and Podobińska-Staniec, M. (2021).
+\newblock Iot platforms for the mining industry: An overview.
+\newblock {\em Inżynieria Mineralna}, 1.
+
+\bibitem[Tawanda~Zvarivadza and Celik, 2024]{reference-1}
+Tawanda~Zvarivadza, Moshood~Onifade, O. D.-O. K. O. S. J. M. G. B.~G. and
+  Celik, T. (2024).
+\newblock On the impact of industrial internet of things (iiot) - mining sector
+  perspectives.
+\newblock {\em International Journal of Mining, Reclamation and Environment},
+  0(0):24.
 
 \end{thebibliography}
