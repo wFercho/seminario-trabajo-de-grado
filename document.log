@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.27)  19 MAY 2024 23:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.27)  8 JUL 2024 09:35
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -897,7 +897,7 @@ LaTeX Info: Redefining \% on input line 21.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-] [2] (./document.toc
+] (./document.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
@@ -954,7 +954,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
- [3])
+ [2] [3])
 \tf@toc=\write7
 \openout7 = `document.toc'.
 
@@ -966,23 +966,81 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write8
 \openout8 = `document.lof'.
 
-<./images/mapa-conceptual.png, id=171, 828.09375pt x 406.51875pt>
+ (./document.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write9
+\openout9 = `document.lot'.
+
+<./images/mapa-conceptual.png, id=267, 898.35625pt x 1120.185pt>
 File: ./images/mapa-conceptual.png Graphic file (type png)
 <use ./images/mapa-conceptual.png>
-Package pdftex.def Info: ./images/mapa-conceptual.png  used on input line 33.
-(pdftex.def)             Requested size: 496.86009pt x 243.91312pt.
+Package pdftex.def Info: ./images/mapa-conceptual.png  used on input line 35.
+(pdftex.def)             Requested size: 431.2061pt x 537.6827pt.
+ [4] [5 <./images/mapa-conceptual.png>]
+<./images/plataformas-iot.png, id=291, 434.37282pt x 539.01375pt>
+File: ./images/plataformas-iot.png Graphic file (type png)
+<use ./images/plataformas-iot.png>
+Package pdftex.def Info: ./images/plataformas-iot.png  used on input line 58.
+(pdftex.def)             Requested size: 260.62569pt x 323.41074pt.
 
-Overfull \hbox (27.10507pt too wide) in paragraph at lines 33--35
+[6] [7 <./images/plataformas-iot.png>]
+<./images/arbol-causas-efectos.png, id=308, 3480.00125pt x 1954.30125pt>
+File: ./images/arbol-causas-efectos.png Graphic file (type png)
+<use ./images/arbol-causas-efectos.png>
+Package pdftex.def Info: ./images/arbol-causas-efectos.png  used on input line 
+74.
+(pdftex.def)             Requested size: 494.15302pt x 277.50676pt.
+
+Overfull \hbox (24.398pt too wide) in paragraph at lines 74--76
  [][][] 
  []
 
-[4] [5 <./images/mapa-conceptual.png>] [6] [7] [8] [9]
+[8 <./images/arbol-causas-efectos.png>] [9] [10] [11]
+<./images/iot_modelo_3_capas.png, id=341, 437.635pt x 529.98pt>
+File: ./images/iot_modelo_3_capas.png Graphic file (type png)
+<use ./images/iot_modelo_3_capas.png>
+Package pdftex.def Info: ./images/iot_modelo_3_capas.png  used on input line 17
+6.
+(pdftex.def)             Requested size: 131.2915pt x 158.99521pt.
+<./images/iot_modelo_5_capas.png, id=350, 437.635pt x 943.525pt>
+File: ./images/iot_modelo_5_capas.png Graphic file (type png)
+<use ./images/iot_modelo_5_capas.png>
+Package pdftex.def Info: ./images/iot_modelo_5_capas.png  used on input line 18
+7.
+(pdftex.def)             Requested size: 131.2915pt x 283.05968pt.
+ [12 <./images/iot_modelo_3_capas.png>] [13 <./images/iot_modelo_5_capas.png>]
+<./images/iot_modelo_7_capas.png, id=369, 437.635pt x 1352.05125pt>
+File: ./images/iot_modelo_7_capas.png Graphic file (type png)
+<use ./images/iot_modelo_7_capas.png>
+Package pdftex.def Info: ./images/iot_modelo_7_capas.png  used on input line 19
+9.
+(pdftex.def)             Requested size: 131.2915pt x 405.6185pt.
+ [14]
+<./images/Synthesized_high_level_IIoT_architecture_for_mining_industry.png, id=
+377, 377.15906pt x 517.935pt>
+File: ./images/Synthesized_high_level_IIoT_architecture_for_mining_industry.png
+ Graphic file (type png)
+<use ./images/Synthesized_high_level_IIoT_architecture_for_mining_industry.png>
 
-LaTeX Warning: Citation `mittelbach2004latex' on page 10 undefined on input lin
-e 134.
-
-[10] (./document.bbl [11]) AED endfloat: Processing end Figures and Tables
-[12] (./document.aux
+Package pdftex.def Info: ./images/Synthesized_high_level_IIoT_architecture_for_
+mining_industry.png  used on input line 213.
+(pdftex.def)             Requested size: 301.72766pt x 414.34854pt.
+ [15 <./images/iot_modelo_7_capas.png>] [16 <./images/Synthesized_high_level_II
+oT_architecture_for_mining_industry.png>] [17] [18]
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 271.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 271.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 290.
+ (./document.bbl [19{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-ts1.enc}] [20])
+AED endfloat: Processing end Figures and Tables [21] (./document.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -992,27 +1050,43 @@ L3 programming layer <2024-03-14>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 6FCDFAA7AE68F2194DE948243173F5A0;3936.
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: A060E33B012A702E7D2FA91644674B8B;8084
+(rerunfilecheck)             After:  C92A5CF1B2080558B79E0DBB9E64513F;7190.
  ) 
 Here is how much of TeX's memory you used:
- 24772 strings out of 474104
- 461822 string characters out of 5743473
- 1935493 words of memory out of 5000000
- 46659 multiletter control sequences out of 15000+600000
- 594165 words of font info for 75 fonts, out of 8000000 for 9000
+ 24931 strings out of 474104
+ 466101 string characters out of 5743473
+ 1937493 words of memory out of 5000000
+ 46775 multiletter control sequences out of 15000+600000
+ 595266 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,107p,1018b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (12 pages, 152573 bytes).
+ 99i,12n,107p,1200b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsubsection.7.1.10} has been referenced but does 
+not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.7.1.9} has been referenced but does n
+ot exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.7.1.8} has been referenced but does n
+ot exist, replaced by a fixed one
+
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on document.pdf (21 pages, 913731 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 
