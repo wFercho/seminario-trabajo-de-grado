@@ -6,11 +6,22 @@ Aghenta, L.~O. and Iqbal, M.~T. (2019).
   and esp32 thing.
 \newblock {\em Electronics}, 8(8).
 
+\bibitem[Asiedu-Asante and Normanyo, 2020]{SCADA_UMaT}
+Asiedu-Asante, A.~B. and Normanyo, E. (2020).
+\newblock {\em GHANA JOURNAL OF TECHNOLOGY}.
+
 \bibitem[Aziz et~al., 2020]{iot1020029}
 Aziz, A., Schelén, O., and Bodin, U. (2020).
 \newblock A study on industrial iot for the mining industry: Synthesized
   architecture and open research directions.
 \newblock {\em IoT}, 1(2):529--550.
+
+\bibitem[Bhowmik and Riaz, 2023]{EEI5236}
+Bhowmik, R. and Riaz, M.~H. (2023).
+\newblock An extended review of the application layer messaging protocol of the
+  internet of things.
+\newblock {\em Bulletin of Electrical Engineering and Informatics},
+  12(5):3134--3141.
 
 \bibitem[dos Santos et~al., 2020]{DBLP:journals/corr/abs-2004-12936}
 dos Santos, M.~G., Ameyed, D., Petrillo, F., Jaafar, F., and Cheriet, M.
@@ -43,11 +54,24 @@ Paul, B. (2022).
 \newblock In Fong, S., Dey, N., and Joshi, A., editors, {\em ICT Analysis and
   Applications}, pages 23--34, Singapore. Springer Nature Singapore.
 
-\bibitem[Tightiz and Yang, 2020]{en13112762}
-Tightiz, L. and Yang, H. (2020).
-\newblock A comprehensive review on iot protocols’ features in smart grid
-  communication.
-\newblock {\em Energies}, 13(11).
+\bibitem[Tawanda~Zvarivadza and Celik, 2024]{reference-1}
+Tawanda~Zvarivadza, Moshood~Onifade, O. D.-O. K. O. S. J. M. G. B.~G. and
+  Celik, T. (2024).
+\newblock On the impact of industrial internet of things (iiot) - mining sector
+  perspectives.
+\newblock {\em International Journal of Mining, Reclamation and Environment},
+  0(0):24.
+
+\bibitem[Velepucha and Flores, 2023]{10220070}
+Velepucha, V. and Flores, P. (2023).
+\newblock A survey on microservices architecture: Principles, patterns and
+  migration challenges.
+\newblock {\em IEEE Access}, 11:88339--88358.
+
+\bibitem[Waseem et~al., 2020]{WASEEM2020110798}
+Waseem, M., Liang, P., and Shahin, M. (2020).
+\newblock A systematic mapping study on microservices architecture in devops.
+\newblock {\em Journal of Systems and Software}, 170:110798.
 
 \bibitem[Yugha and Chithra, 2020]{YUGHA2020102763}
 Yugha, R. and Chithra, S. (2020).

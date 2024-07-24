@@ -1,6 +1,19 @@
 \documentclass[stu,12pt,floatsintext]{apa7}
 
 %\usepackage[american]{babel}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{makecell} % Para permitir saltos de línea en las celdas
+\usepackage{longtable}
+
+\usepackage{caption} % Paquete para controlar los captions
+\captionsetup{justification=centering, singlelinecheck=false}
+\captionsetup[longtable]{justification=centering, labelsep=colon}
+\captionsetup[table]{justification=centering, labelsep=colon}
+
+%\captionsetup[longtable]{justification=centering, singlelinecheck=false} % Centra el caption de longtable
+
+%\usepackage[justification=centering]{caption}
 
 \usepackage{csquotes} % One of the things you learn about LaTeX is at some level, it's like magic. The references weren't printing as they should without this line, and the guy who wrote the package included it, so here it is. Because LaTeX reasons.
 \usepackage[T1]{fontenc} 
@@ -21,6 +34,7 @@
 \begin{document}
 	\maketitle
 	\graphicspath{{./images/}}
+	\renewcommand\theadset{\renewcommand\arraystretch{1.5}} % Espacio extra para encabezados
 	\renewcommand\contentsname{TABLA DE CONTENIDO}
 	\tableofcontents
 	
@@ -55,9 +69,8 @@
 	 
 	\begin{table}
 	\centering
-	\includegraphics[scale=0.6]{plataformas-iot}
-	\captionsetup{justification=centering}
-	\caption{IoT platforms for the Mining Industry: An Overview}
+	\includegraphics[scale=0.7]{plataformas-iot}
+	\caption{\centering IoT platforms for the Mining Industry: An Overview\\}
 	\label{table:1}
 \end{table}
 
@@ -118,9 +131,7 @@
 			%Sistemas de alto costo, por el costo no podemos acceder a estos, pero podemos plantear una solución que tenga las funcionalidades y que debido al costo no pueden ser accedidas.
 		
 		La mayoría de plataformas mencionadas en tabla\ref{table:1}, a nivel de capa de aplicación, requieren que en las capas inmediatamente inferiores, del modelo de tres capas \ref{iot_tres_capas}, se haga uso de hardware propietario, principalmente sensores de categoría industrial que le elevan el costo de adquirir un sistema IoT. Otras de las plataformas mencionadas en el estudio carecen de capacidades requeridas para el monitoreo inteligente de gases, como lo son la analítica predictiva o la integración con sensores semi-industriales.
-			%Los sistemas IIoT (Industrial Internet of Things) como una aplicación de IoT (Internet of Things) en la industria, hacen uso de sistemas IoT para el monitoreo de condiciones ambientales, en el caso de la industria minera por medio de sensores para la calidad del aire, la detección de gases nocivos para la salud, así como para la detección de partículas de polvo producidos principalmente en el proceso de extracción de minerales, se pretende garantizar información principalmente en tiempo real que ayude a la toma de decisiones de prevención y gestión de emergencias\cite{reference-1}.
-		%con las características claves  de interfaz de usuario, pantallas gráficas, alarmas, tendencias, interfaces RTU (Unidades Terminales Remotas) y PLC (Controladores Lógicos Programables), escalabilidad, acceso a datos, bases de datos, redes, tolerancia a fallos y redundancia, procesamiento distribuido siguiendo la arquitectura cliente/servidor. 
-		%Que aunque por muchos años ha servido en el proceso de recolección y procesamiento de datos a nivel general en la industria por varias décadas. Pero se presenta como una solución parcial dada su baja capacidad de interoperabilidad con otras partes interesadas como lo son otros sistemas, dispositivos, aplicativos usados por stakeholders \cite{SCADA_UMaT}.
+			
 		
 		%Para mitigar la carencia de sistemas desactualizados como el SCADA, muchas empresas en los últimos años han presentado al mercado soluciones basadas en IoT. Estas en su mayoría han probado ser opciones factibles debido a su uso por parte de empresas mineras grandes. Pero estas diferentes soluciones comparten la característica de tener pocos servicios, por lo que se tienen soluciones diferentes que no están en la capacidad de cubrir con todas las necesidades requeridas, como el procesamiento de datos por parte de algoritmos de ML sin tener que sacrificar aspectos como el almacenamiento y el acceso a estos. Además de que, como estas soluciones son concebidas en el contexto de empresas mineras de países desarrollados, es poco viable que una mina en un país en vía de desarrollo puede llegar a costearla. También es importante mencionar que muchas de las solucione implementadas son software de propietario, que fueron desarrollados por la empresa para la empresa\cite{iot-platforms}.
 		
@@ -165,7 +176,7 @@
 	
 	\section{MARCO REFERENCIAL}
 	\subsection{MARCO TEÓRICO}
-	\subsubsection{Modelos IoT y arquitecturas}
+	\subsubsection{Modelos  y Arquitecturas IoT}
 	IoT (Internet of Things) no tiene una arquitectura estándar, a modo general se puede hablar de modelos para describir las diferentes arquitecturas que encontramos implementadas. Se describen modelos de tres capas\ref{iot_tres_capas}, cinco capas\ref{iot_cinco_capas} y siete capas\ref{iot_siete_capas}, pero en cuanto a la arquitectura de un sistema IoT las que sobresalen son implementadas por grandes empresas; Microsoft, Cisco, Amazon, Ericsoon, Intel, IBM, Google \cite{DBLP:journals/corr/abs-2004-12936}.
 	
 	La capa de aplicación del modelo de tres capas\ref{iot_tres_capas} aborda los servicios que serán usados por el usuario final. En cuanto a infraestructura, todo lo implementado en la capa de aplicación se encuentra en cloud.
@@ -207,30 +218,80 @@
 	\subsubsection{IIoT en la industria minera}
 	IoT en la industria minera representa el medio para la operación y monitoreo remoto de sistemas de producción complejos en los que se minimiza la intervención completa y/o parcial humana, haciendo uso de plataformas en tiempo real\cite{molaei:hal-02940030}.
 	
-	La arquitectura que aparece en la figura\ref{iiot_minas_arq_sintetizada}, resultado del estudio de  \cite{iot1020029}, nos da una vista bastante buena de los diferentes aspectos que se ven involucrados dentro de una arquitectura IIoT orientada a la industria minera.
+	La arquitectura que aparece en la figura\ref{iiot_minas_arq_sintetizada}, resultado del estudio de  \cite{iot1020029}, nos da una vista bastante buena de los diferentes aspectos que se ven involucrados dentro de una arquitectura IIoT orientada a la industria minera, clasificando por dominios y diferenciando estos por su implementación en el sitio minero o fuera de este, ubicándolos a nivel de infraestructura en lo que se conoce como ''Computación Niebla" por su traducción del inglés Fog Computing y ''Computación en la Nube" por su traducción del inglés Cloud Computing.
 		\begin{figure}[H]
 		\centering
-		\includegraphics[scale=0.8]{Synthesized_high_level_IIoT_architecture_for_mining_industry.png}
+		\includegraphics[scale=0.13]{Adaptacion_Synthesized_high_level_IIoT_architecture_for_mining_industry.png}
 		\captionsetup{justification=centering}
-		\caption{Synthesized high level IIoT architecture for mining industry}
+		%\caption{Synthesized high level IIoT architecture for mining industry}
+		\caption{Arquitectura IIoT sintetizada a nivel genera para la industria mineral}
 		\small
 		\label{iiot_minas_arq_sintetizada}
+		Adaptación de: Autor
 	\end{figure}
-	\subsubsection{Protocolos de comunicación para IoT en capa de aplicación}
-	Paper 1 sobre protocolos \cite{en13112762}
+	\subsubsection{Protocolos de comunicación en IoT para capa de aplicación}
+	%Paper 1 sobre protocolos \cite{en13112762}
+	En IoT existe una gran variedad de protocolos que van desde la capa más baja de cualquier modelo hasta la de más alto nivel, que en este caso entendemos como capa de aplicación. En capa de aplicación, la clasificación de estos se puede hacer varias formas, pero una distinción común que se hace entre la gran variedad de protocolos, ya poniendo la en términos de costos, es la de diferenciar a estos en protocolos de uso libre y protocolos propietarios [insertar cita].
+	Indiferentemente de lo anterior, para capa de aplicación de IoT, se encuentran entre los más conocidos; MQTT, AMQP, CoAP, XMPP y DDS \cite{YUGHA2020102763}.
+	\begin{enumerate}[label=\alph*)]
+	\item MQTT: De sus siglas en inglés Message Queue Telemetry Transport (MQTT) y de su traducción al español "Transporte de Telemetría de Cola de Mensajes", es un protocolo ampliamente usado desde su desarrollo en 1999, con características como su diseño orientado a mensajes livianos, siguiendo el modelo de cliente-servidor, en el que el cliente pude tomar el rol de publicador o suscriptor y el servidor cumple el rol de "Broker", encargándose del transporte de mensajes entre y para clientes publicadores y suscriptores \cite{EEI5236}.
+	\item AMQP: De sus siglas en inglés Advance Message Queuing Protocol (AMQP) y de sus traducción al español "Protocolo Avanzado de Cola de Mensajes", es un protocolo centrado u orientado a los mensajes, proveyendo intercambio de mensajes a través de los roles de publicador y suscriptor \cite{YUGHA2020102763}.
+	\item CoAP: De sus siglas en inglés Constrained Application Protocol (CoAP) y de sus traducción al español "Protocolo de Aplicación Restringido", es un protocolo que que usa la arquitectura cliente-servidor, similar a HTTP pero usando como protocolo de transporte UDP en lugar de TCP presente en HTTP \cite{YUGHA2020102763}.
+	\item XMPP: De sus siglas en inglés Extensible Messaging and Presence Protocol (XMPP) y de su traducción al español "Protocolo Extensible de Mensajería y Presencia", es un protocolo basado en  Extensible Markup Language (XML) y que usa TCP como protocolo de transporte. La transmisión de mensajes es distribuida y no centralizada como es el caso de MQTT o AMQP \cite{YUGHA2020102763}.
+	\item DDS: De sus siglas en inglés Data Distribution Service (DDS) y de su traducción al español, "Servicio de Distribución de Datos", es usado para comunicaciones de punto a punto para dispositivos IoT de baja latencia \cite{YUGHA2020102763}.
+	\end{enumerate}
+	%\subsubsection{IoT para el monitoreo de gases}
 	
-	En este hablan especificamente de los que nos interesan en capa de aplicación \cite{YUGHA2020102763} ()
+	%\subsubsection{Infraestructura IoT}
 	
-	\subsubsection{IoT para el monitoreo de gases}
-	
-	\subsubsection{Infraestructura IoT}
-	
-	\subsubsection{Machine Learning para IoT}
+	%\subsubsection{Machine Learning para IoT}
 	
 	%\subsubsection{Ingeniería de Software}
 	
 	\subsubsection{Arquitectura de Microservicios}
+	La arquitectura de Microservicios, predecesora en orden cronológico de concepción de la Arquitectura Orientada a Servicios por sus siglas en inglés Services Oriented Architecture (SOA), se puede entender como el conjunto de servicios granulares desplegados en diferentes stacks tecnológicos que en conjunto, a través de uno o varios protocolos de comunicación, logran interacción en beneficio de un sistema o software \cite{WASEEM2020110798}.
 	
+	En el estudio de \cite{10220070} sobre arquitectura de microservicios, se encuentran identificadas unas series de practicas, patrones y principios resumidos en \ref{tabla_resumen_microservicios} y que se dedujeron a través de la revisión de documental de arquitecturas de microservicios implementadas por parte de diferentes empresas.
+	
+
+	\begin{longtable}{ | >{\centering\arraybackslash}p{3cm} | >{\centering\arraybackslash}p{3cm} | >{\centering\arraybackslash}p{3cm} | >{\centering\arraybackslash}p{3cm} | }
+		\hline
+		\thead{\textbf{Nombre}} & \thead{\textbf{Intención}} & \thead{\textbf{Escenario de uso}} & \thead{\textbf{Beneficios clave}} \\
+		\hline
+		\endfirsthead
+		
+		\hline
+		\thead{\textbf{Nombre}} & \thead{\textbf{Intención}} & \thead{\textbf{Escenario de uso}} & \thead{\textbf{Beneficios clave}} \\
+		\hline
+		\endhead
+		
+		\hline
+		\endfoot
+		
+		\hline
+		\caption{\centering Resumen de metodologías y patrones para microservicios\\ Adaptación de: Autor\\}
+		\label{tabla_resumen_microservicios}
+		\endlastfoot
+		
+		Diseño Orientado al Diseño & Diseñar y desarrollar sistemas de software con base en el modelo del dominio & Dominios complejos con lógica de negocio rica y en evolución & Alineamiento claro con el dominio, encapsulamiento del conocimiento del dominio, diseño modular y con mantenibilidad, mejora la colaboración entre equipos \\
+		\hline
+		Patrón de Descubrimiento de Servicio & Facilita el descubrimiento y la comunicación de servicios dinámicos & Arquitecturas de Microservicios con interacción de servicios & Registro dinámico y automático de servicios, desacoplamiento entre servicios, balanceo de cargas, tolerante a fallos\\
+		\hline
+		Diseño Orientado a los Datos&Diseñar sistema de software al rededor del comportamiento y estructura de los datos & Aplicaciones donde los datos son un componente clave& Enfocado en la toma de decisiones orientadas a los datos, mejora la integridad de los datos, optimiza el acceso y la manipulación de los datos, alineado con objetivos del negocio \\
+		\hline
+		Patrón de Backend para Frontend& Desarrollar servicios de backend hecho a la medida de ciertos clientes frontend&Aplicaciones con múltiples clientes de frontend& APIs customizadas y optimizadas para cada cliente de frontend, desacoplamiento de frontend-backend mejorado, una mejor experiencia de usuario \\
+		\hline
+		Patrón Adaptador de Microservicios&Adapta y transforma datos o funcionalidad entre microservicios&Arquitecturas de Microservicios con diferentes interfaces&Permite una comunicación fluida entre microservicios con diferentes protocolos o formato de datos, promueve la interoperabilidad\\
+		\hline
+		Patrón de Aplicación Estrangulador&Migrar incrementalmente de un sistema monolítico a microservicios & Aplicaciones monolíticas antiguas, desactualizadas, obsoletas & Migración gradual sin de perturbar el sistema existente, riesgo reducido, mantenibilidad y escalabilidad mejoradas\\
+		\hline
+		Patrón de diseño de microservicio de datos compartidos&Gestiona y comparte datos entre microservicios &Arquitecturas de Microservicios con requerimientos para compartir datos&Gestión centralizada de datos, consistencia de datos, duplicación y redundancia de datos reducida, integridad de los datos mejorada\\
+		\hline
+		Patrón de diseño de microservicio de agregador o consolidación&Datos consolidados o agregados, o funcionalidades desde múltiples microservicios&Aplicaciones que requieren información consolidada& Agregación o consolidación de datos centralizados, complejidad del cliente reducida, mejora el rendimiento, sobrecarga de la red reducida\\
+		\hline
+		% Añade tantas filas como necesites
+		
+	\end{longtable}
 	%\subsubsection{Protocolos de comunicación para microservicios}
 	
 	%\subsubsection{Software orientado a capa de aplicación de IoT}
@@ -270,10 +331,18 @@
 	\subsection{MARCO HISTÓRICO}
 	SCADA → M2M → IoT
 	
+	Los sistemas IIoT (Industrial Internet of Things) como una aplicación de IoT (Internet of Things) en la industria, hacen uso de sistemas IoT para el monitoreo de condiciones ambientales, en el caso de la industria minera por medio de sensores para la calidad del aire, la detección de gases nocivos para la salud, así como para la detección de partículas de polvo producidos principalmente en el proceso de extracción de minerales, se pretende garantizar información principalmente en tiempo real que ayude a la toma de decisiones de prevención y gestión de emergencias\cite{reference-1}.
+	%con las características claves  de interfaz de usuario, pantallas gráficas, alarmas, tendencias, interfaces RTU (Unidades Terminales Remotas) y PLC (Controladores Lógicos Programables), escalabilidad, acceso a datos, bases de datos, redes, tolerancia a fallos y redundancia, procesamiento distribuido siguiendo la arquitectura cliente/servidor. 
+	SCADA, ha servido en el proceso de recolección y procesamiento de datos a nivel general en la industria por varias décadas. Los sistemas SCADA, principalmente los implementados años atrás, presentan baja capacidad de interoperabilidad con otras partes interesadas como lo son otros sistemas, dispositivos, aplicativos usados por stakeholders \cite{SCADA_UMaT}.
+	
 	\section{FUENTES DE INFORMACIÓN}
 	\subsection{Fuentes primarias}
+	El formato de estos será en su mayoria el distribuido electronicamente, a no ser que se requiera un libro que por ciertas circunstancias se encuentre solamente en formato tradicional impreso. En cuanto al dónde encontrar estas fuentes, siendo en su mayoría electronicas, se primara el uso de buscadores o indexadores de articulos de investigación, bibliotecas en linea, tiendas en linea, catalogos.
+	
+	Por consecuencia, como fuentes de información primaria se tendrán obras literias, reportes de investigación, normas tecnicas, tesis, revistas cientificas,  articulos que empiecen manejando como parte fundamental de este el uso, diseño, implementación de IoT
 	\subsection{Fuentes secundarias}
-	\subsection{Fuentes terciarias}
+	Revistas puestos a trabajo de revisión, informes de investigación
+	%\subsection{Fuentes terciarias}
 	\section{MARCO METODOLÓGICO}
 	\subsection{Tipo de investigación}
 	Investigación comparada
@@ -284,31 +353,30 @@
 	Mixto
 	\subsection{Metodología de desarrollo}
 	Metodología ágil
-	\subsection{Población y muestra}
-	Sistemas IoT en la industria y Sistemas IoT para el monitoreo de gases
+	%\subsection{Población y muestra}
+	%Sistemas IoT en la industria y Sistemas IoT para el monitoreo de gases
 	
-	Minas de Colombia → Minas subterráneas de carbón de la provincia de Sugamuxi, Boyacá.
-	\subsection{Instrumentos de recolección de datos}
-	Diagrama de flujo
+	%Minas de Colombia → Minas subterráneas de carbón de la provincia de Sugamuxi, Boyacá.
+	%\subsection{Instrumentos de recolección de datos}
+	%Diagrama de flujo
 	\section{CRONOGRAMA}
-	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.6]{cronograma.jpg}
+		\captionsetup{justification=centering}
+		\caption{Cronograma del Proyecto}
+		\small
+		\label{cronograma}
+	\end{figure}
 	\section{RECURSOS}
 	\subsection{RECURSOS HUMANOS}
 	\subsection{RECURSOS FÍSICOS}
 	\subsection{RECURSOS TECNOLÓGICOS}
 	
 	\section{PRESUPUESTO}
-	
+	\section{CONCLUSIONES}
 	\section{BIBLIOGRAFÍA}
 	\renewcommand\refname{Referencias}
 	\bibliographystyle{apalike}
 	\bibliography{./references.bib}
-	
-	
-
-	
-	
-	\section{CONCLUSIONES}
-	
-
 \end{document}

@@ -14,32 +14,26 @@
 \contentsline {section}{\numberline {6}DELIMITACIÓN Y ALCANCE DE LA INVESTIGACIÓN}{11}{section.6}%
 \contentsline {section}{\numberline {7}MARCO REFERENCIAL}{12}{section.7}%
 \contentsline {subsection}{\numberline {7.1}MARCO TEÓRICO}{12}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Modelos IoT y arquitecturas}{12}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Modelos y Arquitecturas IoT}{12}{subsubsection.7.1.1}%
 \contentsline {subsubsection}{\numberline {7.1.2}IIoT en la industria minera}{15}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Protocolos de comunicación para IoT en capa de aplicación}{16}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}IoT para el monitoreo de gases}{17}{subsubsection.7.1.4}%
-\contentsline {subsubsection}{\numberline {7.1.5}Infraestructura IoT}{17}{subsubsection.7.1.5}%
-\contentsline {subsubsection}{\numberline {7.1.6}Machine Learning para IoT}{17}{subsubsection.7.1.6}%
-\contentsline {subsubsection}{\numberline {7.1.7}Arquitectura de Microservicios}{17}{subsubsection.7.1.7}%
-\contentsline {subsection}{\numberline {7.2}MARCO CONCEPTUAL}{17}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}MARCO LEGAL}{19}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}MARCO HISTÓRICO}{19}{subsection.7.4}%
-\contentsline {section}{\numberline {8}FUENTES DE INFORMACIÓN}{19}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Fuentes primarias}{19}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Fuentes secundarias}{19}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Fuentes terciarias}{19}{subsection.8.3}%
-\contentsline {section}{\numberline {9}MARCO METODOLÓGICO}{19}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Tipo de investigación}{19}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Alcance de la investigación}{19}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Enfoque de la investigación}{19}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Metodología de desarrollo}{19}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Población y muestra}{19}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}Instrumentos de recolección de datos}{19}{subsection.9.6}%
-\contentsline {section}{\numberline {10}CRONOGRAMA}{20}{section.10}%
-\contentsline {section}{\numberline {11}RECURSOS}{20}{section.11}%
-\contentsline {subsection}{\numberline {11.1}RECURSOS HUMANOS}{20}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}RECURSOS FÍSICOS}{20}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}RECURSOS TECNOLÓGICOS}{20}{subsection.11.3}%
-\contentsline {section}{\numberline {12}PRESUPUESTO}{20}{section.12}%
-\contentsline {section}{\numberline {13}BIBLIOGRAFÍA}{20}{section.13}%
-\contentsline {section}{\numberline {14}CONCLUSIONES}{21}{section.14}%
+\contentsline {subsubsection}{\numberline {7.1.3}Protocolos de comunicación en IoT para capa de aplicación}{17}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Arquitectura de Microservicios}{18}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.2}MARCO CONCEPTUAL}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}MARCO LEGAL}{24}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}MARCO HISTÓRICO}{25}{subsection.7.4}%
+\contentsline {section}{\numberline {8}FUENTES DE INFORMACIÓN}{25}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Fuentes primarias}{25}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Fuentes secundarias}{25}{subsection.8.2}%
+\contentsline {section}{\numberline {9}MARCO METODOLÓGICO}{26}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Tipo de investigación}{26}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Alcance de la investigación}{26}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Enfoque de la investigación}{26}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Metodología de desarrollo}{26}{subsection.9.4}%
+\contentsline {section}{\numberline {10}CRONOGRAMA}{27}{section.10}%
+\contentsline {section}{\numberline {11}RECURSOS}{28}{section.11}%
+\contentsline {subsection}{\numberline {11.1}RECURSOS HUMANOS}{28}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}RECURSOS FÍSICOS}{28}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}RECURSOS TECNOLÓGICOS}{28}{subsection.11.3}%
+\contentsline {section}{\numberline {12}PRESUPUESTO}{28}{section.12}%
+\contentsline {section}{\numberline {13}CONCLUSIONES}{28}{section.13}%
+\contentsline {section}{\numberline {14}BIBLIOGRAFÍA}{28}{section.14}%
