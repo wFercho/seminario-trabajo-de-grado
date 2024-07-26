@@ -31,45 +31,45 @@ Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Day
 while executing---line 1098 of file apalike.bst
 Too many commas in name 1 of "Tawanda Zvarivadza, Moshood Onifade, Oluwatobi Dayo-Olupona, Khadija Omar Said, Joseph Muchiri Githiria, Bekir Genc and Turgay Celik" for entry reference-1
 while executing---line 1098 of file apalike.bst
-You've used 13 entries,
+You've used 23 entries,
             1935 wiz_defined-function locations,
-            554 strings with 6196 characters,
-and the built_in function-call counts, 5019 in all, are:
-= -- 486
-> -- 208
-< -- 10
-+ -- 77
-- -- 67
-* -- 429
-:= -- 889
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 96
-chr.to.int$ -- 13
-cite$ -- 14
-duplicate$ -- 185
-empty$ -- 343
-format.name$ -- 94
-if$ -- 970
+            606 strings with 8677 characters,
+and the built_in function-call counts, 8658 in all, are:
+= -- 838
+> -- 378
+< -- 16
++ -- 139
+- -- 125
+* -- 722
+:= -- 1552
+add.period$ -- 68
+call.type$ -- 23
+change.case$ -- 175
+chr.to.int$ -- 23
+cite$ -- 24
+duplicate$ -- 317
+empty$ -- 570
+format.name$ -- 162
+if$ -- 1665
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 67
-num.names$ -- 41
-pop$ -- 71
+missing$ -- 17
+newline$ -- 116
+num.names$ -- 71
+pop$ -- 132
 preamble$ -- 1
-purify$ -- 97
+purify$ -- 176
 quote$ -- 0
-skip$ -- 147
+skip$ -- 254
 stack$ -- 0
-substring$ -- 342
-swap$ -- 19
-text.length$ -- 1
+substring$ -- 563
+swap$ -- 33
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 138
 warning$ -- 1
-while$ -- 39
+while$ -- 64
 width$ -- 0
-write$ -- 169
+write$ -- 292
 (There were 11 error messages)

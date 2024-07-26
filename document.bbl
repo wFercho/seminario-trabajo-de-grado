@@ -6,6 +6,12 @@ Aghenta, L.~O. and Iqbal, M.~T. (2019).
   and esp32 thing.
 \newblock {\em Electronics}, 8(8).
 
+\bibitem[Al-Masri et~al., 2020]{9090208}
+Al-Masri, E., Kalyanam, K.~R., Batts, J., Kim, J., Singh, S., Vo, T., and Yan,
+  C. (2020).
+\newblock Investigating messaging protocols for the internet of things (iot).
+\newblock {\em IEEE Access}, 8:94880--94911.
+
 \bibitem[Asiedu-Asante and Normanyo, 2020]{SCADA_UMaT}
 Asiedu-Asante, A.~B. and Normanyo, E. (2020).
 \newblock {\em GHANA JOURNAL OF TECHNOLOGY}.
@@ -16,12 +22,39 @@ Aziz, A., Schelén, O., and Bodin, U. (2020).
   architecture and open research directions.
 \newblock {\em IoT}, 1(2):529--550.
 
+\bibitem[Babun et~al., 2021]{BABUN2021108040}
+Babun, L., Denney, K., Celik, Z.~B., McDaniel, P., and Uluagac, A.~S. (2021).
+\newblock A survey on iot platforms: Communication, security, and privacy
+  perspectives.
+\newblock {\em Computer Networks}, 192:108040.
+
 \bibitem[Bhowmik and Riaz, 2023]{EEI5236}
 Bhowmik, R. and Riaz, M.~H. (2023).
 \newblock An extended review of the application layer messaging protocol of the
   internet of things.
 \newblock {\em Bulletin of Electrical Engineering and Informatics},
   12(5):3134--3141.
+
+\bibitem[Cabrera et~al., 2020]{9284589}
+Cabrera, E., Cárdenas, P., Cedillo, P., and Pesántez-Cabrera, P. (2020).
+\newblock Towards a methodology for creating internet of things (iot)
+  applications based on microservices.
+\newblock In {\em 2020 IEEE International Conference on Services Computing
+  (SCC)}, pages 472--474.
+
+\bibitem[Christou et~al., 2022]{CHRISTOU2022103591}
+Christou, I.~T., Kefalakis, N., Soldatos, J.~K., and Despotopoulou, A.-M.
+  (2022).
+\newblock End-to-end industrial iot platform for quality 4.0 applications.
+\newblock {\em Computers in Industry}, 137:103591.
+
+\bibitem[{Congreso de Colombia}, 2012]{ley_estatutaria_1581_2012}
+{Congreso de Colombia} (2012).
+\newblock Ley estatutaria 1581 de 2012 por la cual se dictan disposiciones
+  generales para la protección de datos personales.
+\newblock Reglamentada parcialmente por el Decreto Nacional 1377 de 2013,
+  reglamentada parcialmente por el Decreto 1081 de 2015, ver sentencia C-748 de
+  2011, ver Decreto 255 de 2022.
 
 \bibitem[dos Santos et~al., 2020]{DBLP:journals/corr/abs-2004-12936}
 dos Santos, M.~G., Ameyed, D., Petrillo, F., Jaafar, F., and Cheriet, M.
@@ -33,6 +66,12 @@ dos Santos, M.~G., Ameyed, D., Petrillo, F., Jaafar, F., and Cheriet, M.
 Gackowiec, P. and Podobińska-Staniec, M. (2021).
 \newblock Iot platforms for the mining industry: An overview.
 \newblock {\em Inżynieria Mineralna}, 1.
+
+\bibitem[Khalyly et~al., 2020]{Khalyly2020}
+Khalyly, B.~E., Belangour, A., Banane, M., and Erraissi, A. (2020).
+\newblock A comparative study of microservices-based iot platforms.
+\newblock {\em International Journal of Advanced Computer Science and
+  Applications}, 11(8).
 
 \bibitem[Minera, 2020]{anm2020}
 Minera, A.~N. (2020).
@@ -54,6 +93,18 @@ Paul, B. (2022).
 \newblock In Fong, S., Dey, N., and Joshi, A., editors, {\em ICT Analysis and
   Applications}, pages 23--34, Singapore. Springer Nature Singapore.
 
+\bibitem[{Presidencia de la República de Colombia}, 2013]{decreto_1377_2013}
+{Presidencia de la República de Colombia} (2013).
+\newblock Decreto nacional 1377 de 2013.
+\newblock Reglamenta parcialmente la Ley Estatutaria 1581 de 2012 sobre
+  protección de datos personales.
+
+\bibitem[{Presidencia de la República de Colombia}, 2022]{decreto_255_2022}
+{Presidencia de la República de Colombia} (2022).
+\newblock Decreto 255 de 2022.
+\newblock Introduce nuevas disposiciones y ajustes a la normativa existente
+  sobre protección de datos personales.
+
 \bibitem[Tawanda~Zvarivadza and Celik, 2024]{reference-1}
 Tawanda~Zvarivadza, Moshood~Onifade, O. D.-O. K. O. S. J. M. G. B.~G. and
   Celik, T. (2024).
@@ -72,6 +123,21 @@ Velepucha, V. and Flores, P. (2023).
 Waseem, M., Liang, P., and Shahin, M. (2020).
 \newblock A systematic mapping study on microservices architecture in devops.
 \newblock {\em Journal of Systems and Software}, 170:110798.
+
+\bibitem[y~Consejo de~la Unión~Europea, 2000]{ATEX114Directive}
+y~Consejo de~la Unión~Europea, P.~E. (2000).
+\newblock Directiva 1999/92/ce del parlamento europeo y del consejo, de 16 de
+  diciembre de 1999, relativa a las disposiciones mínimas para la mejora de la
+  protección de la seguridad y la salud de los trabajadores expuestos al
+  riesgo de atmósferas explosivas.
+\newblock DOUE 2000/23 L00057-00064.
+
+\bibitem[y~Consejo de~la Unión~Europea, 2014]{Directive2014_34}
+y~Consejo de~la Unión~Europea, P.~E. (2014).
+\newblock Directiva 2014/34/ue del parlamento europeo y del consejo, de 26 de
+  febrero de 2014, relativa a la armonización de las legislaciones de los
+  estados miembros sobre los aparatos y sistemas de protección para uso en
+  atmósferas potencialmente explosivas.
 
 \bibitem[Yugha and Chithra, 2020]{YUGHA2020102763}
 Yugha, R. and Chithra, S. (2020).

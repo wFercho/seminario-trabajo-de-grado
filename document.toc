@@ -9,18 +9,18 @@
 \contentsline {subsection}{\numberline {3.2}FORMULACIÓN DEL PROBLEMA}{9}{subsection.3.2}%
 \contentsline {section}{\numberline {4}OBJETIVOS}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}OBJETIVO GENERAL}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}OBJETIVOS ESPECÍFICOS}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}OBJETIVOS ESPECÍFICOS}{9}{subsection.4.2}%
 \contentsline {section}{\numberline {5}JUSTIFICACIÓN}{10}{section.5}%
-\contentsline {section}{\numberline {6}DELIMITACIÓN Y ALCANCE DE LA INVESTIGACIÓN}{11}{section.6}%
-\contentsline {section}{\numberline {7}MARCO REFERENCIAL}{12}{section.7}%
-\contentsline {subsection}{\numberline {7.1}MARCO TEÓRICO}{12}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Modelos y Arquitecturas IoT}{12}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}IIoT en la industria minera}{15}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Protocolos de comunicación en IoT para capa de aplicación}{17}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}Arquitectura de Microservicios}{18}{subsubsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.2}MARCO CONCEPTUAL}{23}{subsection.7.2}%
+\contentsline {section}{\numberline {6}DELIMITACIÓN Y ALCANCE DE LA INVESTIGACIÓN}{10}{section.6}%
+\contentsline {section}{\numberline {7}MARCO REFERENCIAL}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}MARCO TEÓRICO}{11}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Modelos y Arquitecturas IoT}{11}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}IIoT en la industria minera}{14}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Protocolos de comunicación en IoT para capa de aplicación}{16}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Arquitectura de Microservicios e IoT}{17}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.2}MARCO CONCEPTUAL}{22}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}MARCO LEGAL}{24}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}MARCO HISTÓRICO}{25}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.4}MARCO HISTÓRICO}{24}{subsection.7.4}%
 \contentsline {section}{\numberline {8}FUENTES DE INFORMACIÓN}{25}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Fuentes primarias}{25}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Fuentes secundarias}{25}{subsection.8.2}%

@@ -61,7 +61,7 @@
 	\subsubsection{Diagnostico}
 	%Un aspecto crucial en un sistema IoT para el monitoreo de gases es la recolección de datos provenientes de diferentes sensores. Se identifica que sistemas como los SCADA (Supervisory Control and Data Acquisition), de tipo comercial con un costo económico alto y otros de uso libre, fueron concebidos bajo la arquitectura cliente-servidor, una de las menos optimas para hacer frente a las demandas actuales de un sistema IoT para el monitoreo de gases . Además de que los sistemas SCADA, en su mayoría, operan a nivel de instalación\cite{YADAV2021100433}. 
 	
-	 En el mercado encontramos variedad de plataformas que, a nivel de capa de aplicación, nos permiten implementar sistemas IoT\ref{table:1} . ABB Ability que es orientada a la industria minera\cite{iot-platforms} y otras de uso general, tienen una característica en común de no ser viables para su uso en el monitoreo de gases en minas de la provincia de Sugamuxi en el departamento de Boyacá, esto debido a los altos costos de estos sistemas IoT. 
+	 En el mercado encontramos variedad de plataformas que, a nivel de capa de aplicación, nos permiten implementar sistemas Io\cite{iot-platforms}, de ABB Ability\ref{table:1} que es orientada a la industria minera y otras de uso general\ref{table:1}, se infiere baja capacidad adquisitiva de estas por parte de empresas medianas y pequeñas de minería en la provincia de Sugamuxi del departamento de Boyacá, debido principalmente al costo asociado a sensores de carácter industrial que se requieren para su uso en conjunto con estas plataformas.
 	 
 	Las plataformas mencionadas en la tabla\ref{table:1} hacen parte de sistemas IoT propietarios que a pesar de ser altamente maduros, no permiten su integración fácilmente con sensores, actuadores y sistemas embebidos de uso semi-industrial. Además, cuando se analiza la interoperabilidad con otros sistemas, específicamente con el objetivo de compartir información con demás departamentos, partes interesadas y módulos de analítica, se requieren mejoras que vayan alineadas con practicas modernas de IIoT \cite{iot1020029}.
 	
@@ -70,7 +70,8 @@
 	\begin{table}
 	\centering
 	\includegraphics[scale=0.7]{plataformas-iot}
-	\caption{\centering IoT platforms for the Mining Industry: An Overview\\}
+	%\caption{\centering IoT platforms for the Mining Industry: An Overview\\}
+	\caption{\centering Plataformas IoT para la industria Minera\\}
 	\label{table:1}
 \end{table}
 
@@ -92,19 +93,19 @@
 	\end{figure}
 	
 	\subsubsection{Control al pronostico}
-	Ante la problemática planteada, surge la necesidad de disponer de un sistema IoT que, a nivel de capa de aplicación, cumpla con los siguientes atributos de calidad:
+	Ante la problemática planteada, surge la necesidad de disponer de un sistema IoT que, a nivel de capa de aplicación, cumpla con los atributos de calidad de disponibilidad, integridad y confidencialidad de datos, así mismo como el acceso a estos siguiendo una convención o estándar.
 	
-	\begin{itemize}
-		\item Fiabilidad en la recolección de datos y emisión de alertas
-		\item Disponibilidad 24/7
-		\item Escabilidad principalmente asociada a la cantidad de datos que se recolectan por sistemas embebidos que amplíen los existentes.
-		\item Mantenibilidad
-		\item Seguridad principalmente en aspectos como la integridad, confidencialidad y disponibilidad de los datos.
-		\item Rendimiento a nivel de recolección de datos y emisión de alertas
-		\item Resiliencia 
-		\item Monitoreo y diagnóstico
-	\end{itemize}
-	Además, es importante tener en cuenta que el sistema que se diseñe tiene que ser de bajo costo, por lo que va orientado al uso de sensores y actuadores de bajo costo también, específicamente de grado industrial. Lo anterior con el fin de que las minas de la provincia de Sugamuxi, Boyacá, puedan contar con una alternativa económicamente asequible sin perder los beneficios de un sistema IoT de calidad.
+	%\begin{itemize}
+		%\item Fiabilidad en la recolección de datos y emisión de alertas
+	%	\item Disponibilidad 24/7
+		%\item Escabilidad principalmente asociada a la cantidad de datos que se recolectan por sistemas embebidos que amplíen los existentes.
+		%\item Mantenibilidad
+		%\item Seguridad principalmente en aspectos como la integridad, confidencialidad y disponibilidad de los datos.
+		%\item Rendimiento a nivel de recolección de datos y emisión de alertas
+		%\item Resiliencia 
+		%\item Monitoreo y diagnóstico
+	%\end{itemize}
+	Además, es importante tener en cuenta que el sistema que se diseñe tiene que ser de bajo costo, por lo que va orientado al uso de sensores y actuadores de bajo costo también, específicamente de grado semi-industrial. Lo anterior con el fin de que las minas de la provincia de Sugamuxi, Boyacá, puedan contar con una alternativa económicamente asequible sin perder los beneficios de un sistema IoT de calidad.
 	\subsection{FORMULACIÓN DEL PROBLEMA}
 	¿Qué aspectos se deben tener en cuenta para el diseño de la capa de aplicación de un sistema IoT que use una arquitectura de microservicios para el monitoreo de gases peligrosos en minas subterráneas de la provincia de Sugamuxi, Boyacá?
 	%\begin{itemize}
@@ -115,7 +116,7 @@
 	
 	\section{OBJETIVOS}
 	\subsection{OBJETIVO GENERAL}
-	Diseñar la capa de aplicación de un sistema IoT utilizando microservicios para el monitoreo de gases en minas subterráneas en la provincia de Sugamuxi, Boyacá, enfocado en la seguridad de las labores mineras.
+	Diseñar la capa de aplicación de un sistema IoT utilizando microservicios para el monitoreo de gases peligrosos en minas subterráneas en la provincia de Sugamuxi, Boyacá, enfocado en la seguridad de las labores mineras.
 	\subsection{OBJETIVOS ESPECÍFICOS}
 	\begin{itemize}
 		\item Analizar los diferentes modelos de transferencia de datos a nivel de capa de aplicación para sistemas IoT en entornos mineros.
@@ -137,7 +138,7 @@
 		
 		%Para qué. Para mejorar, adquirir...
 		  % Proveer una opción de bajo costo
-		 Debido a la enorme cantidad de casos de uso de IoT, las arquitecturas varían entre diseños e implementaciones, por lo que se necesita tener presente las necesidades del contexto. Así que, partiendo de la concepción del modelo de tres capas\cite{10.1007/978-981-16-5655-2_3} se pretende diseñar la capa de aplicación del "Sistema IoT para el monitoreo de gases explosivos en minería subterránea", perteneciente al grupo de investigación GALASH de la UPTC Seccional Sogamoso.
+		 Debido a la enorme cantidad de casos de uso de IoT, las arquitecturas varían entre diseños e implementaciones, por lo que se necesita tener presente las necesidades del contexto. Así que, partiendo de la concepción del modelo de tres capas\cite{10.1007/978-981-16-5655-2_3} se pretende diseñar la capa de aplicación del proyecto de investigación ``Sistema IoT para el monitoreo de gases explosivos en minería subterránea'' con SGI 3293 , perteneciente al grupo de investigación GALASH de la UPTC Seccional Sogamoso.
 		%A partir de esto, se identifica la necesidad de contar un sistema IoT con el enfoque de seguridad de las labores mineras, que cubra las necesidades especificas requeridas en el contexto de minas de la provincia de Sugamuxi en el departamento de Boyacá. Entre las que se encuentra el involucrar directamente a partes interesadas como los trabajadores y gerentes de minas, centros de atención a la salud que puedan responder a emergencias minimizando tiempos de respuesta, entidades gubernamentales como la Agencia Nacional Minera y el Ministerio de Minas y Energías. Planteando el diseño de un sistema IoT con el enfoque de seguridad de las labores mineras se le permite a estas partes interesadas el adquirir conocimiento de los diferentes aspectos requeridos en un sistema IoT .
 		
 		%Qué se busca. Validar, comprobar
@@ -180,7 +181,7 @@
 	IoT (Internet of Things) no tiene una arquitectura estándar, a modo general se puede hablar de modelos para describir las diferentes arquitecturas que encontramos implementadas. Se describen modelos de tres capas\ref{iot_tres_capas}, cinco capas\ref{iot_cinco_capas} y siete capas\ref{iot_siete_capas}, pero en cuanto a la arquitectura de un sistema IoT las que sobresalen son implementadas por grandes empresas; Microsoft, Cisco, Amazon, Ericsoon, Intel, IBM, Google \cite{DBLP:journals/corr/abs-2004-12936}.
 	
 	La capa de aplicación del modelo de tres capas\ref{iot_tres_capas} aborda los servicios que serán usados por el usuario final. En cuanto a infraestructura, todo lo implementado en la capa de aplicación se encuentra en cloud.
-	Para la capa red\ref{iot_tres_capas} se tiene contemplada la conexión entre las ''cosas'', los diferentes dispositivos de red y servidores, particularmente los desplegados en cloud.
+	Para la capa red\ref{iot_tres_capas} se tiene contemplada la conexión entre las ``cosas'', los diferentes dispositivos de red y servidores, particularmente los desplegados en cloud.
 	Finalmente en la capa de percepción\ref{iot_tres_capas} se encuentran los sensores y actuadores.
 		\begin{figure}[H]
 		\centering
@@ -218,27 +219,27 @@
 	\subsubsection{IIoT en la industria minera}
 	IoT en la industria minera representa el medio para la operación y monitoreo remoto de sistemas de producción complejos en los que se minimiza la intervención completa y/o parcial humana, haciendo uso de plataformas en tiempo real\cite{molaei:hal-02940030}.
 	
-	La arquitectura que aparece en la figura\ref{iiot_minas_arq_sintetizada}, resultado del estudio de  \cite{iot1020029}, nos da una vista bastante buena de los diferentes aspectos que se ven involucrados dentro de una arquitectura IIoT orientada a la industria minera, clasificando por dominios y diferenciando estos por su implementación en el sitio minero o fuera de este, ubicándolos a nivel de infraestructura en lo que se conoce como ''Computación Niebla" por su traducción del inglés Fog Computing y ''Computación en la Nube" por su traducción del inglés Cloud Computing.
+	La arquitectura que aparece en la figura\ref{iiot_minas_arq_sintetizada}, resultado del estudio de  \cite{iot1020029}, nos da una vista bastante buena de los diferentes aspectos que se ven involucrados dentro de una arquitectura IIoT orientada a la industria minera, clasificando por dominios y diferenciando estos por su implementación en el sitio minero o fuera de este, ubicándolos a nivel de infraestructura en lo que se conoce como ``Computación en el Borde'' por su traducción del inglés Edge Computing, ``Computación Niebla'' por su traducción del inglés Fog Computing y ``Computación en la Nube'' por su traducción del inglés Cloud Computing.
 		\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.13]{Adaptacion_Synthesized_high_level_IIoT_architecture_for_mining_industry.png}
 		\captionsetup{justification=centering}
 		%\caption{Synthesized high level IIoT architecture for mining industry}
-		\caption{Arquitectura IIoT sintetizada a nivel genera para la industria mineral}
+		\caption{Arquitectura IIoT sintetizada a nivel general para la industria minera}
 		\small
 		\label{iiot_minas_arq_sintetizada}
 		Adaptación de: Autor
 	\end{figure}
 	\subsubsection{Protocolos de comunicación en IoT para capa de aplicación}
 	%Paper 1 sobre protocolos \cite{en13112762}
-	En IoT existe una gran variedad de protocolos que van desde la capa más baja de cualquier modelo hasta la de más alto nivel, que en este caso entendemos como capa de aplicación. En capa de aplicación, la clasificación de estos se puede hacer varias formas, pero una distinción común que se hace entre la gran variedad de protocolos, ya poniendo la en términos de costos, es la de diferenciar a estos en protocolos de uso libre y protocolos propietarios [insertar cita].
+	En IoT existe una gran variedad de protocolos que van desde la capa más baja de cualquier modelo hasta la de más alto nivel, que en este caso entendemos como capa de aplicación. En capa de aplicación, la clasificación de protocolos se puede hacer varias formas, pero una distinción común que se hace entre la gran variedad de protocolos, ya poniendo la en términos de costos, es la de diferenciar a estos en protocolos de uso libre y protocolos propietarios \cite{9090208}.
 	Indiferentemente de lo anterior, para capa de aplicación de IoT, se encuentran entre los más conocidos; MQTT, AMQP, CoAP, XMPP y DDS \cite{YUGHA2020102763}.
 	\begin{enumerate}[label=\alph*)]
-	\item MQTT: De sus siglas en inglés Message Queue Telemetry Transport (MQTT) y de su traducción al español "Transporte de Telemetría de Cola de Mensajes", es un protocolo ampliamente usado desde su desarrollo en 1999, con características como su diseño orientado a mensajes livianos, siguiendo el modelo de cliente-servidor, en el que el cliente pude tomar el rol de publicador o suscriptor y el servidor cumple el rol de "Broker", encargándose del transporte de mensajes entre y para clientes publicadores y suscriptores \cite{EEI5236}.
-	\item AMQP: De sus siglas en inglés Advance Message Queuing Protocol (AMQP) y de sus traducción al español "Protocolo Avanzado de Cola de Mensajes", es un protocolo centrado u orientado a los mensajes, proveyendo intercambio de mensajes a través de los roles de publicador y suscriptor \cite{YUGHA2020102763}.
-	\item CoAP: De sus siglas en inglés Constrained Application Protocol (CoAP) y de sus traducción al español "Protocolo de Aplicación Restringido", es un protocolo que que usa la arquitectura cliente-servidor, similar a HTTP pero usando como protocolo de transporte UDP en lugar de TCP presente en HTTP \cite{YUGHA2020102763}.
-	\item XMPP: De sus siglas en inglés Extensible Messaging and Presence Protocol (XMPP) y de su traducción al español "Protocolo Extensible de Mensajería y Presencia", es un protocolo basado en  Extensible Markup Language (XML) y que usa TCP como protocolo de transporte. La transmisión de mensajes es distribuida y no centralizada como es el caso de MQTT o AMQP \cite{YUGHA2020102763}.
-	\item DDS: De sus siglas en inglés Data Distribution Service (DDS) y de su traducción al español, "Servicio de Distribución de Datos", es usado para comunicaciones de punto a punto para dispositivos IoT de baja latencia \cite{YUGHA2020102763}.
+	\item MQTT: De sus siglas en inglés Message Queue Telemetry Transport (MQTT) y de su traducción al español ``Transporte de Telemetría de Cola de Mensajes'', es un protocolo ampliamente usado desde su desarrollo en 1999, con características como su diseño orientado a mensajes livianos, siguiendo el modelo de cliente-servidor, en el que el cliente pude tomar el rol de publicador o suscriptor y el servidor cumple el rol de ``Broker'', encargándose del transporte de mensajes entre y para clientes publicadores y suscriptores \cite{EEI5236}.
+	\item AMQP: De sus siglas en inglés Advance Message Queuing Protocol (AMQP) y de sus traducción al español ``Protocolo Avanzado de Cola de Mensajes'', es un protocolo centrado u orientado a los mensajes, proveyendo intercambio de mensajes a través de los roles de publicador y suscriptor \cite{YUGHA2020102763}.
+	\item CoAP: De sus siglas en inglés Constrained Application Protocol (CoAP) y de sus traducción al español ``Protocolo de Aplicación Restringido'', es un protocolo que que usa la arquitectura cliente-servidor, similar a HTTP pero usando como protocolo de transporte UDP en lugar de TCP presente en HTTP \cite{9090208}.
+	\item XMPP: De sus siglas en inglés Extensible Messaging and Presence Protocol (XMPP) y de su traducción al español ``Protocolo Extensible de Mensajería y Presencia'', es un protocolo basado en  Extensible Markup Language (XML) y que usa TCP como protocolo de transporte. La transmisión de mensajes es distribuida y no centralizada como es el caso de MQTT o AMQP \cite{YUGHA2020102763}.
+	\item DDS: De sus siglas en inglés Data Distribution Service (DDS) y de su traducción al español, ``Servicio de Distribución de Datos'', es usado para comunicaciones de punto a punto para dispositivos IoT de baja latencia \cite{9090208}.
 	\end{enumerate}
 	%\subsubsection{IoT para el monitoreo de gases}
 	
@@ -248,7 +249,7 @@
 	
 	%\subsubsection{Ingeniería de Software}
 	
-	\subsubsection{Arquitectura de Microservicios}
+	\subsubsection{Arquitectura de Microservicios e IoT}
 	La arquitectura de Microservicios, predecesora en orden cronológico de concepción de la Arquitectura Orientada a Servicios por sus siglas en inglés Services Oriented Architecture (SOA), se puede entender como el conjunto de servicios granulares desplegados en diferentes stacks tecnológicos que en conjunto, a través de uno o varios protocolos de comunicación, logran interacción en beneficio de un sistema o software \cite{WASEEM2020110798}.
 	
 	En el estudio de \cite{10220070} sobre arquitectura de microservicios, se encuentran identificadas unas series de practicas, patrones y principios resumidos en \ref{tabla_resumen_microservicios} y que se dedujeron a través de la revisión de documental de arquitecturas de microservicios implementadas por parte de diferentes empresas.
@@ -292,65 +293,83 @@
 		% Añade tantas filas como necesites
 		
 	\end{longtable}
+		Adicionalmente, en lo que concierne a Arquitectura de Microservicos en IoT, se encuentra el estudio de \cite{Khalyly2020}, donde se realiza una comparación de plataformas IoT basadas en Microservicios, calificando estas a partir de criterios con un puntaje asociado, dando como resultado un puntaje especifico para el criterio y uno general para la plataforma.
+		
+		Paralelamente tenemos el estudio de \cite{9284589} en el que se propone ``MicroIoT'', una metodología para el desarrollo de software enfocado en microservicios, en la que tenemos los estados y actividades de:
+		\begin{itemize}
+			\item Análisis de requerimientos
+			\item Diseño de entrega basado en el dominio
+			\item Arquitectura de soluciones
+			\item Validación
+			\item Desarrollo y pruebas
+			\item Desarrollo
+			\item Operaciones
+		\end{itemize}
 	%\subsubsection{Protocolos de comunicación para microservicios}
 	
 	%\subsubsection{Software orientado a capa de aplicación de IoT}
 	
 	\subsection{MARCO CONCEPTUAL}
 		\begin{itemize}
-		\item IoT (Internet of Things): Por su traducción al español "Internet de las Cosas", se entiende como una red global de dispositivos "inteligentes" (principalmente de baja capacidad computacional) interconectados entre sí a través de internet.
-		\item IIoT (Industrial Internet of Things): Por su traducción al español "Internet de las Cosas en la Industria", es una aplicación o caso de uso de IoT en la industria.
+		\item IoT (Internet of Things): Por su traducción al español ``Internet de las Cosas'', se entiende como una red global de dispositivos ``inteligentes'' (principalmente de baja capacidad computacional) interconectados entre sí a través de internet.
+		\item IIoT (Industrial Internet of Things): Por su traducción al español ``Internet de las Cosas en la Industria'', es una aplicación o caso de uso de IoT en la industria.
 		\item Nodos sensores: Dispositivos que, siguiendo el modelo de tres capas de un arquitectura IoT, se encuentran en la capa de percepción y se encargan de recolectar información sobre su entorno.
-		\item Gateway IoT: Componente de un Sistem IoT encargado de dotar a los nodos sensores de la capacidad de "salir a internet", además de otras capacidades como seguridad, analítica.
+		\item Gateway IoT: Componente de un Sistem IoT encargado de dotar a los nodos sensores de la capacidad de ``salir a internet'', además de otras capacidades como seguridad, analítica.
 		\item Computación en la nube (Cloud computing): Infraestructura computacional perteneciente a un tercero en la mayoría de los casos, pero con la característica principal de estar ubicada a cientos de kilómetros del dominio o sitio dónde se generan los datos y/o acciones.
 		\item Computación en el borde (Edge Computing): Infraestructura computacional que se encuentra en el sitio donde se generan los datos y/o acciones.
 		\item Computación niebla (Fog Computing): Infraestructura que no se puede clasificar como Edge ni como Cloud.
 		\item Monitoreo de condiciones ambientales: Percepción de variables del entorno a través de dispositivos de sensado para la toma de decisiones.
-		\item Monitoreo fisiológico %Monitoreo de personal
-		\item Tecnología Operacional (Operational Technology)
-		\item Tecnología de la Información (Information Technology)
+		%\item Monitoreo fisiológico %Monitoreo de personal
+		\item Tecnología Operacional (Operational Technology): Comúnmente conocida por sus siglas en inglés OT, es la combinación de software y hardware que se usa mayormente en un contexto industrial para detectar y/o causar acciones usando como medio el control y/o monitoreo de dispositivos, procesos u otros sistemas.
+		\item Tecnología de la Información (Information Technology):  Usualmente conocida por sus siglas en inglés IT, es el uso de sistemas computacionales y de redes de comunicación, para transmitir, almacenar, recibir, recuperar datos o información.
 		\item Interoperabilidad: Capacidad de comunicación entre diferentes sistemas para el intercambio de información.
 		\item Semántica de los Datos: Metadatos y contexto que describen lo que representan los datos, cómo se deben interpretar y se relacionar entre si.
 		\item Provisión de los Datos: Proceso de preparación y suministración de datos a los diferentes usuarios y/o aplicaciones que los requieren.
 		\item Análisis Predictivo: Tipo de análisis orientado a la toma de decisiones antes de que un suceso ocurra.
-		\item Machine Learning: 
-		\item Visualización de Datos Avanzados
-		\item Captura de Datos en Tiempo Real
-		\item Gestión de Dispositivos de Forma Remota
-		\item Arquitectura IoT
-		\item Capa de Aplicación en una Arquitectura IoT
-		\item Capa de Red en una Arquitectura IoT
-		\item Capa de Percepción en una Arquitectura IoT
+		%\item Machine Learning: Campo de la inte
+		\item Visualización de Datos Avanzados: Hace referencia a la gran variedad de herramientas y tecnicas que son usadas para obtener una representación gráfica de datos recolectados, en este contexto, por dispositivos IoT.
+		%\item Captura de Datos en Tiempo Real
+		%\item Gestión de Dispositivos de Forma Remota
+		%\item Arquitectura IoT
+		%\item Capa de Aplicación en una Arquitectura IoT
+		%\item Capa de Red en una Arquitectura IoT
+		%\item Capa de Percepción en una Arquitectura IoT
 	\end{itemize}
 	\subsection{MARCO LEGAL}
-	Normas ATEX
+	En el marco de seguridad en entornos minero encontramos una serie de directivas europeas, la \cite{ATEX114Directive} nos menciona clasificación por zonas explosivas asociando a estas el uso de dispositivos de determinadas categorías, infiriendo por tanto que bajo una clasificación por zonas explosivas se tiene que establecer una lista de dispositivos aptos para cada zona.
 	
-	Ley 1581 de 2012 de la protección de datos personales en Colombia
+	Adicionalmente tenemos \cite{Directive2014_34} que regula los dispositivos que se quieren destinar para su uso en atmósferas explosivas, esto es relevante en capa de aplicación de un sistema IoT ya que nos brinda un soporte o punto de partida para determinar qué dispositivos se pueden permitir para su registro dentro del sistema IoT.
 	
-	Decreto 1377 de 2013
+	Finalmente, para lo que compete a Colombia, se debe tener en cuenta la ley 1581 de 2012 sobre la protección de los datos \cite{ley_estatutaria_1581_2012} y algunas de las reglamentaciones como \cite{decreto_1377_2013} y \cite{decreto_255_2022}, que inicialmente pueden ser relevantes para este contexto.
+	
 	\subsection{MARCO HISTÓRICO}
-	SCADA → M2M → IoT
+	%SCADA → M2M → IoT
 	
-	Los sistemas IIoT (Industrial Internet of Things) como una aplicación de IoT (Internet of Things) en la industria, hacen uso de sistemas IoT para el monitoreo de condiciones ambientales, en el caso de la industria minera por medio de sensores para la calidad del aire, la detección de gases nocivos para la salud, así como para la detección de partículas de polvo producidos principalmente en el proceso de extracción de minerales, se pretende garantizar información principalmente en tiempo real que ayude a la toma de decisiones de prevención y gestión de emergencias\cite{reference-1}.
+	Los sistemas SCADA (Supervisory Control and Data Acquisition) por su traducción a español ``Control de Supervisión y Adquisición de Datos'' han servido en el proceso de recolección y procesamiento de datos en la industria por varias décadas.  SCADA, principalmente los implementados años atrás, presentan baja capacidad de interoperabilidad con otras partes interesadas como lo son otros sistemas, dispositivos, aplicativos usados por stakeholders \cite{SCADA_UMaT}.
+	
+	Actualmente los sistemas IIoT como una aplicación de IoT (Internet of Things) en la industria, hacen uso de sistemas IoT para el monitoreo de condiciones ambientales, en el caso de la industria minera por medio de sensores para la calidad del aire, la detección de gases nocivos para la salud, así como para la detección de partículas de polvo producidos principalmente en el proceso de extracción de minerales, se pretende garantizar información principalmente en tiempo real que ayude a la toma de decisiones de prevención y gestión de emergencias\cite{reference-1}.
 	%con las características claves  de interfaz de usuario, pantallas gráficas, alarmas, tendencias, interfaces RTU (Unidades Terminales Remotas) y PLC (Controladores Lógicos Programables), escalabilidad, acceso a datos, bases de datos, redes, tolerancia a fallos y redundancia, procesamiento distribuido siguiendo la arquitectura cliente/servidor. 
-	SCADA, ha servido en el proceso de recolección y procesamiento de datos a nivel general en la industria por varias décadas. Los sistemas SCADA, principalmente los implementados años atrás, presentan baja capacidad de interoperabilidad con otras partes interesadas como lo son otros sistemas, dispositivos, aplicativos usados por stakeholders \cite{SCADA_UMaT}.
 	
+	
+	\cite{BABUN2021108040} sobre análisis de plataformas IoT bajo criterios topología, lenguajes de programación, soporte de terceros,  soporte de protocolo extendido, manejo de eventos, seguridad y privacidad, nos brindan un panorama bastante claro de las diferentes opciones que tenemos en plataformas IoT para propósito general.
+	
+	Adicionalmente hay estudios sobre IoT enfocados a modo general hacia la industria 4.0, como el de \cite{CHRISTOU2022103591} en el que se nos presenta un arquitectura de plataforma IIoT para aplicaciones de calidad. Lo anterior, bajo un análisis detallado, puede ser relevante para el contexto del proyecto, así mismo es otra prueba de la gran variedad de arquitecturas IIoT que se encuentran diseñadas y/o implementadas en la actualidad.
 	\section{FUENTES DE INFORMACIÓN}
 	\subsection{Fuentes primarias}
-	El formato de estos será en su mayoria el distribuido electronicamente, a no ser que se requiera un libro que por ciertas circunstancias se encuentre solamente en formato tradicional impreso. En cuanto al dónde encontrar estas fuentes, siendo en su mayoría electronicas, se primara el uso de buscadores o indexadores de articulos de investigación, bibliotecas en linea, tiendas en linea, catalogos.
+	El formato de estos será en su mayoría el distribuido electrónicamente, a no ser que se requiera un libro que por ciertas circunstancias se encuentre solamente en formato tradicional impreso. Respecto a dónde encontrar estas fuentes, siendo en su mayoría electrónicas, se primara el uso de buscadores o indexadores de artículos de investigación, bibliotecas en linea, tiendas en linea, catálogos.
 	
-	Por consecuencia, como fuentes de información primaria se tendrán obras literias, reportes de investigación, normas tecnicas, tesis, revistas cientificas,  articulos que empiecen manejando como parte fundamental de este el uso, diseño, implementación de IoT
+	Por consecuencia, como fuentes de información primaria se tendrán obras literarias, reportes de investigación, normas técnicas, tesis, revistas científicas,  artículos que manejen como tema general y común IoT , fundamentalmente el uso, diseño, implementación de IoT.
 	\subsection{Fuentes secundarias}
-	Revistas puestos a trabajo de revisión, informes de investigación
+	En cuanto a fuentes secundarias se tendrán en cuenta revistas puestas a trabajo de revisión, informes de investigación, pero principalmente las diferentes referencias encontradas en las fuentes primarias.
 	%\subsection{Fuentes terciarias}
 	\section{MARCO METODOLÓGICO}
 	\subsection{Tipo de investigación}
-	Investigación comparada
+	Esta será la de ``investigación comparada'', ya que para lograr los objetivos planteados es necesario comparar la mayor cantidad posible de implementaciones, arquitecturas, modelos y practicas IoT, pasando por IIoT para finalizar con IIoT para el monitoreo de gases nocivos para la salud.
 	% Investigación de acción participativa? Porque puede ser relevante para este caso conocer de primera mano la opinion de las partes interesadas.
 	\subsection{Alcance de la investigación}
-	Experimental
+	Será cuasi experimental porque si bien el tipo de investigación planteado requiere experimentar con varias tecnologías implementadas, resulta complejo, principalmente por tiempos el plantear un alcance netamente experimental, ya que este conlleva tener un grado mucho más alto de rigurosidad.
 	\subsection{Enfoque de la investigación}
-	Mixto
+	En un principio será mixto, porque aunque gran parte de la investigación se hará con carácter cualitativo, cuando hablamos de implementaciones en capa de aplicación de un sistema IoT, es decir, inmediatamente cercano al usuario final, encontramos herramientas de visualización que pueden ser juzgadas inicialmente desde un punto de vista cualitativo, aunque en la medida de lo posible se pretender llevar lo cualitativo a cuantitativo a través de herramientas como encuestas, entrevistas con preguntas cerradas u otras más.
 	\subsection{Metodología de desarrollo}
 	Metodología ágil
 	%\subsection{Población y muestra}
