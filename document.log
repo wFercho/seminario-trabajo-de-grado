@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.27)  25 JUL 2024 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.27)  26 JUL 2024 02:27
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -737,15 +737,32 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@chunks=\count324
 \LT@p@ftn=\toks36
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen293
+\TX@old@table=\dimen294
+\TX@old@col=\dimen295
+\TX@target=\dimen296
+\TX@delta=\dimen297
+\TX@cols=\count325
+\TX@ftn=\toks37
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip90
+\multirow@cntb=\count326
+\multirow@dima=\skip91
+\bigstrutjot=\dimen298
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count325
-\csq@gtype=\count326
-\csq@glevel=\count327
-\csq@qlevel=\count328
-\csq@maxlvl=\count329
-\csq@tshold=\count330
-\csq@ltx@everypar=\toks37
+\csq@reset=\count327
+\csq@gtype=\count328
+\csq@glevel=\count329
+\csq@qlevel=\count330
+\csq@maxlvl=\count331
+\csq@tshold=\count332
+\csq@ltx@everypar=\toks38
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -793,18 +810,18 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/04/20 v24.4 The Babel package
-\babel@savecnt=\count331
-\U@D=\dimen293
+\babel@savecnt=\count333
+\U@D=\dimen299
 \l@unhyphenated=\language89
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count332
+\bbl@dirlevel=\count334
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks38
-\es@quotdepth=\count333
+\es@quottoks=\toks39
+\es@quotdepth=\count335
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -815,21 +832,21 @@ ex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
 )
-\c@NumberOfAuthors=\count334
-\c@NumberOfSuperscripts=\count335
-\c@NumberOfAffiliations=\count336
+\c@NumberOfAuthors=\count336
+\c@NumberOfSuperscripts=\count337
+\c@NumberOfAffiliations=\count338
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 34
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 36
 .
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
+\l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box74
 )
 (./document.aux
@@ -838,24 +855,24 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -893,17 +910,17 @@ LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen294
+\scratchcounter=\count340
+\scratchdimen=\dimen300
 \scratchbox=\box75
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen295
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks40
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen301
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -921,7 +938,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (./document.out) (./document.out)
 \@outlinefile=\write6
@@ -939,9 +956,9 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\big@size=\dimen296
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
+\big@size=\dimen302
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
  [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
@@ -1021,81 +1038,104 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write9
 \openout9 = `document.lot'.
 
-<./images/mapa-conceptual.png, id=229, 898.35625pt x 1120.185pt>
+ [4]
+<./images/mapa-conceptual.png, id=251, 898.35625pt x 1120.185pt>
 File: ./images/mapa-conceptual.png Graphic file (type png)
 <use ./images/mapa-conceptual.png>
-Package pdftex.def Info: ./images/mapa-conceptual.png  used on input line 49.
+Package pdftex.def Info: ./images/mapa-conceptual.png  used on input line 52.
 (pdftex.def)             Requested size: 431.2061pt x 537.6827pt.
- [4] [5 <./images/mapa-conceptual.png>]
-<./images/plataformas-iot.png, id=251, 434.37282pt x 539.01375pt>
+ [5 <./images/mapa-conceptual.png>]
+<./images/plataformas-iot.png, id=263, 434.37282pt x 539.01375pt>
 File: ./images/plataformas-iot.png Graphic file (type png)
 <use ./images/plataformas-iot.png>
-Package pdftex.def Info: ./images/plataformas-iot.png  used on input line 72.
+Package pdftex.def Info: ./images/plataformas-iot.png  used on input line 75.
 (pdftex.def)             Requested size: 304.0589pt x 377.30704pt.
 
 [6] [7 <./images/plataformas-iot.png>]
-<./images/arbol-causas-efectos.png, id=268, 3480.00125pt x 1954.30125pt>
+<./images/arbol-causas-efectos.png, id=280, 3480.00125pt x 1954.30125pt>
 File: ./images/arbol-causas-efectos.png Graphic file (type png)
 <use ./images/arbol-causas-efectos.png>
 Package pdftex.def Info: ./images/arbol-causas-efectos.png  used on input line 
-88.
+91.
 (pdftex.def)             Requested size: 494.15302pt x 277.50676pt.
 
-Overfull \hbox (24.398pt too wide) in paragraph at lines 88--90
+Overfull \hbox (24.398pt too wide) in paragraph at lines 91--93
  [][][] 
  []
 
 [8 <./images/arbol-causas-efectos.png>] [9] [10] [11]
-<./images/iot_modelo_3_capas.png, id=300, 437.635pt x 529.98pt>
+<./images/iot_modelo_3_capas.png, id=312, 437.635pt x 529.98pt>
 File: ./images/iot_modelo_3_capas.png Graphic file (type png)
 <use ./images/iot_modelo_3_capas.png>
-Package pdftex.def Info: ./images/iot_modelo_3_capas.png  used on input line 18
-8.
+Package pdftex.def Info: ./images/iot_modelo_3_capas.png  used on input line 19
+4.
 (pdftex.def)             Requested size: 131.2915pt x 158.99521pt.
-<./images/iot_modelo_5_capas.png, id=309, 437.635pt x 943.525pt>
+<./images/iot_modelo_5_capas.png, id=321, 437.635pt x 943.525pt>
 File: ./images/iot_modelo_5_capas.png Graphic file (type png)
 <use ./images/iot_modelo_5_capas.png>
-Package pdftex.def Info: ./images/iot_modelo_5_capas.png  used on input line 19
-9.
+Package pdftex.def Info: ./images/iot_modelo_5_capas.png  used on input line 20
+5.
 (pdftex.def)             Requested size: 131.2915pt x 283.05968pt.
- [12 <./images/iot_modelo_3_capas.png>]
-<./images/iot_modelo_7_capas.png, id=323, 437.635pt x 1352.05125pt>
+ [12 <./images/iot_modelo_3_capas.png>] [13 <./images/iot_modelo_5_capas.png>]
+<./images/iot_modelo_7_capas.png, id=341, 437.635pt x 1352.05125pt>
 File: ./images/iot_modelo_7_capas.png Graphic file (type png)
 <use ./images/iot_modelo_7_capas.png>
 Package pdftex.def Info: ./images/iot_modelo_7_capas.png  used on input line 21
-1.
+7.
 (pdftex.def)             Requested size: 131.2915pt x 405.6185pt.
- [13 <./images/iot_modelo_5_capas.png>]
+ [14 <./images/iot_modelo_7_capas.png>]
 <./images/Adaptacion_Synthesized_high_level_IIoT_architecture_for_mining_indust
-ry.png, id=333, 3123.67pt x 3711.8675pt>
+ry.png, id=350, 3123.67pt x 3711.8675pt>
 File: ./images/Adaptacion_Synthesized_high_level_IIoT_architecture_for_mining_i
 ndustry.png Graphic file (type png)
 <use ./images/Adaptacion_Synthesized_high_level_IIoT_architecture_for_mining_in
 dustry.png>
 Package pdftex.def Info: ./images/Adaptacion_Synthesized_high_level_IIoT_archit
-ecture_for_mining_industry.png  used on input line 225.
+ecture_for_mining_industry.png  used on input line 231.
 (pdftex.def)             Requested size: 406.09135pt x 482.55972pt.
- [14 <./images/iot_modelo_7_capas.png>] [15 <./images/Adaptacion_Synthesized_hi
-gh_level_IIoT_architecture_for_mining_industry.png>] [16]
+ [15] [16 <./images/Adaptacion_Synthesized_high_level_IIoT_architecture_for_min
+ing_industry.png>] [17]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 266.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 266.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
- [17] [18] [19] [20] [21] [22] [23] [24] [25]
-<./images/cronograma.jpg, id=429, 793.0428pt x 562.7424pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 266.
+ [18] [19] [20] [21] [22] [23] [24] [25]
+[26]
+<./images/metodologia.png, id=446, 255.95625pt x 392.46625pt>
+File: ./images/metodologia.png Graphic file (type png)
+<use ./images/metodologia.png>
+Package pdftex.def Info: ./images/metodologia.png  used on input line 384.
+(pdftex.def)             Requested size: 204.76526pt x 313.9734pt.
+ [27]
+<./images/cronograma.jpg, id=451, 683.6742pt x 560.8152pt>
 File: ./images/cronograma.jpg Graphic file (type jpg)
 <use ./images/cronograma.jpg>
-Package pdftex.def Info: ./images/cronograma.jpg  used on input line 384.
-(pdftex.def)             Requested size: 475.82935pt x 337.64804pt.
+Package pdftex.def Info: ./images/cronograma.jpg  used on input line 400.
+(pdftex.def)             Requested size: 478.56866pt x 392.56796pt.
 
-Overfull \hbox (6.07433pt too wide) in paragraph at lines 384--386
+Overfull \hbox (8.81364pt too wide) in paragraph at lines 400--403
  [][][] 
  []
 
-[26] (./document.bbl [27 <./images/cronograma.jpg>] [28] [29] [30])
-AED endfloat: Processing end Figures and Tables [31] (./document.aux
+<./images/diagrama_gantt.png, id=452, 2651.40562pt x 1217.2978pt>
+File: ./images/diagrama_gantt.png Graphic file (type png)
+<use ./images/diagrama_gantt.png>
+Package pdftex.def Info: ./images/diagrama_gantt.png  used on input line 409.
+(pdftex.def)             Requested size: 477.23242pt x 219.10414pt.
+
+Overfull \hbox (7.4774pt too wide) in paragraph at lines 409--411
+ [][][] 
+ []
+
+[28 <./images/metodologia.png>] [29 <./images/cronograma.jpg>]
+Overfull \hbox (3.5087pt too wide) in paragraph at lines 462--462
+|[][] 
+ []
+
+[30 <./images/diagrama_gantt.png (PNG copy)>] [31] (./document.bbl [32]
+[33] [34]) AED endfloat: Processing end Figures and Tables [35] (./document.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1104,24 +1144,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 2146E077390F8480A6447FB3AC3CFF2B;6059.
+(rerunfilecheck)             Checksum: CE6BB93A552B0B3726D27869C6CA188A;6184.
  ) 
 Here is how much of TeX's memory you used:
- 25704 strings out of 474104
- 478335 string characters out of 5743473
+ 25884 strings out of 474104
+ 481629 string characters out of 5743473
  1949493 words of memory out of 5000000
- 47511 multiletter control sequences out of 15000+600000
- 617540 words of font info for 105 fonts, out of 8000000 for 9000
+ 47673 multiletter control sequences out of 15000+600000
+ 632970 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,1200b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,107p,1200b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (31 pages, 2475182 bytes).
+Output written on document.pdf (35 pages, 2580716 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 537 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

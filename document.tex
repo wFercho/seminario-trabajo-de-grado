@@ -6,6 +6,8 @@
 \usepackage{makecell} % Para permitir saltos de línea en las celdas
 \usepackage{longtable}
 
+\usepackage{tabularx}
+
 \usepackage{caption} % Paquete para controlar los captions
 \captionsetup{justification=centering, singlelinecheck=false}
 \captionsetup[longtable]{justification=centering, labelsep=colon}
@@ -14,7 +16,7 @@
 %\captionsetup[longtable]{justification=centering, singlelinecheck=false} % Centra el caption de longtable
 
 %\usepackage[justification=centering]{caption}
-
+\usepackage{multirow}
 \usepackage{csquotes} % One of the things you learn about LaTeX is at some level, it's like magic. The references weren't printing as they should without this line, and the guy who wrote the package included it, so here it is. Because LaTeX reasons.
 \usepackage[T1]{fontenc} 
 \usepackage{mathptmx} % This is the Times New Roman font, which was the norm back in my day. If you'd like to use a different font, the options are laid out here: https://www.overleaf.com/learn/latex/Font_typefaces
@@ -42,6 +44,7 @@
 	\listoffigures
 	\renewcommand\listtablename{LISTA DE TABLAS}
 	\listoftables
+	\newpage
 	\section{TEMA/TEMÁTICA}
 	Internet de las Cosas (IoT) / IoT para el monitoreo de gases
 	\begin{figure}[H]
@@ -147,6 +150,9 @@
 		%Cómo se busca. Explicación paso a paso (metodologia)	
 		Mediante la revisión de la literatura relacionada a diseño e implementación de sistemas IIoT en la industria minera, de uso y/o propósito general, arquitecturas de software y estándares relacionados, se pretende llegar a un consenso en el que se pueda producir un diseño que se ajuste a las necesidades planteadas por el contexto.
 		
+		Adicionalmente, la propuesta tendrá como resultado un módulo de visualización que permita ver en tiempo real y dinámicamente los datos sensados por diferentes nodos sensores, incluyendo datos relevantes como las variables sensadas, así como la ubicación de cada uno de estos en un mapa previamente registrado de la mina, permitiendo ubicar específicamente en qué punto o puntos de la mina se encuentra el o los nodos sensores que puedan estar detectando valores fuera de rangos establecidos previamente. 
+		
+		
 	\section{DELIMITACIÓN Y ALCANCE DE LA INVESTIGACIÓN}
 	%Detalle puntualmente en párrafos de mínimo 5 líneas cada una de las siguientes delimitaciones:
 	% - Por área geografica
@@ -187,7 +193,7 @@
 		\centering
 		\includegraphics[scale=0.3]{iot_modelo_3_capas}
 		\captionsetup{justification=centering}
-		\caption{Modelo IoT de tre capas: Internet of Things Architectures: A Comparative Study}
+		\caption{Modelo IoT de tres capas: Arquitecturas del Internet de las Cosas}
 		\small
 		\label{iot_tres_capas}
 		Adaptación de: Autor
@@ -198,7 +204,7 @@
 		\centering
 		\includegraphics[scale=0.3]{iot_modelo_5_capas}
 		\captionsetup{justification=centering}
-		\caption{Modelo IoT de cinco capas: Internet of Things Architectures: A Comparative Study}
+		\caption{Modelo IoT de cinco capas: Arquitecturas del Internet de las Cosas}
 		\small
 		\label{iot_cinco_capas}
 		Adaptación de: Autor
@@ -210,7 +216,7 @@
 		\centering
 		\includegraphics[scale=0.3]{iot_modelo_7_capas}
 		\captionsetup{justification=centering}
-		\caption{Modelo IoT de siete capas: Internet of Things Architectures: A Comparative Study}
+		\caption{Modelo IoT de siete capas: Arquitecturas del Internet de las Cosas}
 		\small
 		\label{iot_siete_capas}
 		Adaptación de: Autor
@@ -314,7 +320,7 @@
 		\item IoT (Internet of Things): Por su traducción al español ``Internet de las Cosas'', se entiende como una red global de dispositivos ``inteligentes'' (principalmente de baja capacidad computacional) interconectados entre sí a través de internet.
 		\item IIoT (Industrial Internet of Things): Por su traducción al español ``Internet de las Cosas en la Industria'', es una aplicación o caso de uso de IoT en la industria.
 		\item Nodos sensores: Dispositivos que, siguiendo el modelo de tres capas de un arquitectura IoT, se encuentran en la capa de percepción y se encargan de recolectar información sobre su entorno.
-		\item Gateway IoT: Componente de un Sistem IoT encargado de dotar a los nodos sensores de la capacidad de ``salir a internet'', además de otras capacidades como seguridad, analítica.
+		\item Gateway IoT: Componente de un Sistema IoT encargado de dotar a los nodos sensores de la capacidad de ``salir a internet'', además de otras capacidades como seguridad, analítica.
 		\item Computación en la nube (Cloud computing): Infraestructura computacional perteneciente a un tercero en la mayoría de los casos, pero con la característica principal de estar ubicada a cientos de kilómetros del dominio o sitio dónde se generan los datos y/o acciones.
 		\item Computación en el borde (Edge Computing): Infraestructura computacional que se encuentra en el sitio donde se generan los datos y/o acciones.
 		\item Computación niebla (Fog Computing): Infraestructura que no se puede clasificar como Edge ni como Cloud.
@@ -327,7 +333,7 @@
 		\item Provisión de los Datos: Proceso de preparación y suministración de datos a los diferentes usuarios y/o aplicaciones que los requieren.
 		\item Análisis Predictivo: Tipo de análisis orientado a la toma de decisiones antes de que un suceso ocurra.
 		%\item Machine Learning: Campo de la inte
-		\item Visualización de Datos Avanzados: Hace referencia a la gran variedad de herramientas y tecnicas que son usadas para obtener una representación gráfica de datos recolectados, en este contexto, por dispositivos IoT.
+		\item Visualización de Datos Avanzados: Hace referencia a la gran variedad de herramientas y técnicas que son usadas para obtener una representación gráfica de datos recolectados, en este contexto, por dispositivos IoT.
 		%\item Captura de Datos en Tiempo Real
 		%\item Gestión de Dispositivos de Forma Remota
 		%\item Arquitectura IoT
@@ -371,7 +377,17 @@
 	\subsection{Enfoque de la investigación}
 	En un principio será mixto, porque aunque gran parte de la investigación se hará con carácter cualitativo, cuando hablamos de implementaciones en capa de aplicación de un sistema IoT, es decir, inmediatamente cercano al usuario final, encontramos herramientas de visualización que pueden ser juzgadas inicialmente desde un punto de vista cualitativo, aunque en la medida de lo posible se pretender llevar lo cualitativo a cuantitativo a través de herramientas como encuestas, entrevistas con preguntas cerradas u otras más.
 	\subsection{Metodología de desarrollo}
-	Metodología ágil
+	%La metodología a seguir es TRIZ, acrónimo ruso que significa ``Teoría de Resolución de Problemas Inventivos'' y que podemos ver en la figura \ref{TRIZ}, es una metodología sistemática que plantea la idea de que los problemas, en su mayoría, comparten características similares, por lo que siguiendo esa idea presenta una serie de principios y soluciones estándares para abordar los problemas y sus contradicciones.
+		\begin{figure}[H]
+		\centering
+		%\includegraphics[scale=0.55]{TRIZ.png}
+		\includegraphics[scale=0.8]{metodologia.png}
+		\captionsetup{justification=centering}
+		%\caption{Metodología TRIZ}
+		\caption{Metodología de desarrollo}
+		\small
+		\label{TRIZ}
+	\end{figure}
 	%\subsection{Población y muestra}
 	%Sistemas IoT en la industria y Sistemas IoT para el monitoreo de gases
 	
@@ -381,19 +397,124 @@
 	\section{CRONOGRAMA}
 		\begin{figure}[H]
 		\centering
-		\includegraphics[scale=0.6]{cronograma.jpg}
+		\includegraphics[scale=0.7]{cronograma.jpg}
+		%\includegraphics[scale=0.7]{cronograma.jpg}
 		\captionsetup{justification=centering}
 		\caption{Cronograma del Proyecto}
 		\small
 		\label{cronograma}
 	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{diagrama_gantt.png}
+		\captionsetup{justification=centering}
+		\caption{Diagrama de Gantt}
+		\small
+		\label{diagrama_gantt}
+	\end{figure}
 	\section{RECURSOS}
 	\subsection{RECURSOS HUMANOS}
+\begin{table}[h]
+	\centering
+	\small % Reduce el tamaño de la fuente en la tabla
+	\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|c|c|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+		\hline
+		\multirow{2}{*}{\makecell[l]{\textbf{Nombre}\\\textbf{del recurso}}} & 
+		\multirow{2}{*}{\textbf{Formación}} & 
+		\multirow{2}{*}{\textbf{Función}} & 
+		\multicolumn{2}{c|}{\textbf{Dedicación}} & 
+		\multirow{2}{*}{\makecell[l]{\textbf{Cantidad}\\ \textbf{del recurso}}} & 
+		\multirow{2}{*}{\makecell[l]{\textbf{\$/Mes}\\ \textbf{(miles)}}} & 
+		\multirow{2}{*}{\textbf{Total}} \\
+		\cline{4-5}
+		&  &  & \textbf{h/sem} & \textbf{Costo} &  &  & \\
+		\hline
+		\makecell[l]{Estudiante} & Pregrado & Realizar la totalidad del proyecto & 5 & 50.000 & 1 & 200 & 1'400.000 \\
+		\hline
+		\textbf{Total} & \multicolumn{6}{c|}{} & 1'400.000 \\
+		\hline
+	\end{tabularx}
+	\caption{\centering Recurso humano\\}
+	\label{tab:recurso_humano}
+\end{table}
 	\subsection{RECURSOS FÍSICOS}
+
 	\subsection{RECURSOS TECNOLÓGICOS}
+		\begin{table}[H]
+		\centering
+		\small % Reduce el tamaño de la fuente en la tabla
+		\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+			\hline
+			\multirow{2}{*}{\textbf{Equipo}} & 
+			\multirow{2}{*}{\makecell[l]{\textbf{Justificación}\\\textbf{de uso}}} & 
+			\multirow{2}{*}{\makecell[l]{\textbf{Costo/Unidad}\\\textbf{Neto}}} & 
+			\multirow{2}{*}{\textbf{Cantidad}} & 
+			\multirow{2}{*}{\textbf{Costo total}} & 
+			\multirow{2}{*}{\textbf{Total}} \\
+			&  &  &  &  & \\
+			\hline
+			\makecell[l]{Computador} & Revisión de documentos, diseño de la solución, desarrollo de los módulos & 10'119.000 & 1 & 10'119.000 & 10'119.000 \\
+			\hline
+			\makecell[l]{Plan de Internet} & Conexión a Internet & 120.000 & 7 & 840.000 & 840.000 \\
+			\hline
+			\textbf{Total} & \multicolumn{4}{c|}{} & 10'959.000 \\
+			\hline
+		\end{tabularx}
+		\caption{\centering Recursos tecnológicos\\}
+		\label{tab:recursos_tecnologicos}
+	\end{table}
+	\subsection{RECURSOS DE SOFTWARE}
+		\begin{table}[H]
+		\centering
+		\small % Reduce el tamaño de la fuente en la tabla
+		\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+			\hline
+			\multirow{2}{*}{\textbf{Software}} & 
+			\multirow{2}{*}{\makecell[l]{\textbf{Justificación}\\\textbf{de uso}}} & 
+			\multirow{2}{*}{\makecell[l]{\textbf{Costo/Mes}\\\textbf{Neto}}} & 
+			\multirow{2}{*}{\textbf{Cantidad}} & 
+			\multirow{2}{*}{\textbf{Costo total}} & 
+			\multirow{2}{*}{\textbf{Total}} \\
+			&  &  &  &  & \\
+			\hline
+			\makecell[l]{AWS EC2} & Pruebas de funcionalidad e integración entre módulos & \$ 29,49 & 3 & \$88,48 & \$176,96 \\
+			\hline
+			\makecell[l]{Figma} & Diseño módulo de visualización & \$ 15 & 1 & \$15 & \$30 \\
+			\hline
+			\textbf{Total} & \multicolumn{4}{c|}{} & \$206,96  \\
+			\hline
+		\end{tabularx}
+		\caption{\centering Recursos de software\\}
+		\label{tab:recursos_software}
+	\end{table}
+	\subsection{RECURSOS DE FÍSICOS}
+	\begin{table}[H]
+		\centering
+		\small % Reduce el tamaño de la fuente en la tabla
+		\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+			\hline
+		\multirow{2}{*}{\textbf{Software}} & 
+		\multirow{2}{*}{\makecell[l]{\textbf{Justificación}\\\textbf{de uso}}} & 
+		\multirow{2}{*}{\makecell[l]{\textbf{Costo/Mes}\\\textbf{Neto}}} & 
+		\multirow{2}{*}{\textbf{Cantidad}} & 
+		\multirow{2}{*}{\textbf{Total}} \\
+		&  &  &  &  \\
+		\hline
+		\makecell[l]{Luz} & Hacer uso de computador e internet &  70.000 & 7 & 4900.00\\
+		\hline
+		\makecell[l]{Escritorio} & Espacio de trabajo & 300.000 & 1 & 300.000 \\
+		\hline
+		\makecell[l]{Silla} & Espacio de trabajo &  400.000& 1 & 400.000 \\
+		\hline
+		\textbf{Total} & \multicolumn{3}{c|}{} & 1'190.000\\
+		\hline
+		\end{tabularx}
+		\caption{\centering Recursos de físicos\\}
+		\label{tab:recursos_fisicos}
+	\end{table}
+	%\section{PRESUPUESTO}
+	%\section{CONCLUSIONES}
 	
-	\section{PRESUPUESTO}
-	\section{CONCLUSIONES}
 	\section{BIBLIOGRAFÍA}
 	\renewcommand\refname{Referencias}
 	\bibliographystyle{apalike}
